@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>IA nas Finanças Públicas — Workshop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,900;1,9..144,500&family=Archivo:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="vignette"></div>
+<div class="progress" id="progress"></div>
+
+<div class="deck" id="deck">
+
+  <!-- ============ SLIDE 1 ============ -->
+  <section class="slide active" id="s1">
+    <img class="web-bg" src="imgs/connection-web.svg" alt="" aria-hidden="true" />
+    <div class="kicker">Workshop · Secretaria da Fazenda</div>
+    <h1 class="big">Inteligência<br>Artificial nas<br>Finanças Públicas</h1>
+    <p class="sub reveal">Da fiscalização ao lançamento: a IA a serviço da Fazenda Pública Municipal.</p>
+    <p class="meta">[ Seu nome ]&nbsp;&nbsp;·&nbsp;&nbsp;[ Instituição ]&nbsp;&nbsp;·&nbsp;&nbsp;[ Data ]</p>
+  </section>
+
+<!-- ============ SLIDE 2 — AGENDA ============ -->
+  <section class="slide" id="s2">
+    <div class="kicker">O caminho de hoje</div>
+    <h2>Quatro estações.</h2>
+    <div class="agenda">
+      <div class="step reveal"><span class="num">01</span><span class="txt">Por que a IA importa — e por que agora</span></div>
+      <div class="step reveal"><span class="num">02</span><span class="txt">Quem, no mundo real, já trilha esse caminho</span></div>
+      <div class="step reveal"><span class="num">03</span><span class="txt">A escada de conceitos: do chat ao agente</span></div>
+      <div class="step reveal"><span class="num">04</span><span class="txt">Demonstrações ao vivo &amp; como começar com segurança</span></div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 3 — CENÁRIO ============ -->
+  <section class="slide" id="s3">
+    <div class="kicker">O descompasso</div>
+    <h2>Os dados crescem.<br>A equipe, não.</h2>
+    <p class="lead">Mais notas fiscais de serviço, mais inscrições em dívida ativa, mais processos — e a mesma quantidade de fiscais. Ao mesmo tempo, a <strong>Lei de Acesso à Informação</strong> e a <strong>Lei de Responsabilidade Fiscal</strong> vigiam cada passo.</p>
+    <p class="lead reveal">A análise ainda é feita, hoje, <em class="hl">contribuinte por contribuinte</em>. A IA não substitui o poder de polícia. Ela amplia o alcance dos seus olhos.</p>
+  </section>
+
+<!-- ============ SLIDE 4 — EVOLUÇÃO INTERFACES ============ -->
+  <section class="slide" id="s4">
+    <div class="clickcue"><span class="pulse"></span>Clique para revelar as gerações</div>
+    <div class="kicker">70 anos de história</div>
+    <h2>A mesma tarefa,<br>cinco linguagens.</h2>
+    <div class="evo">
+      <div class="row reveal"><span class="gen">Binário</span><span class="code">01001000 01001001 00100000</span></div>
+      <div class="row reveal"><span class="gen">COBOL</span><span class="code">MOVE SALDO TO TOTAL.</span></div>
+      <div class="row reveal"><span class="gen">SQL</span><span class="code">SELECT saldo FROM contas;</span></div>
+      <div class="row reveal"><span class="gen">Python</span><span class="code">total = sum(c.saldo for c in contas if c.em_aberto)</span></div>
+      <div class="row reveal"><span class="gen">IA · Prompt</span><span class="code">"mostre os contribuintes com ISS em aberto"</span></div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 5 — NÚMEROS ============ -->
+  <section class="slide" id="s5">
+    <div class="clickcue"><span class="pulse"></span>Clique para revelar os números</div>
+    <div class="kicker">A complexidade brasileira</div>
+    <h2>O oceano em que<br>vocês nadam.</h2>
+    <div class="nums">
+      <div class="n reveal"><div class="fig">+400 mil</div><div class="cap">normas tributárias editadas desde a Constituição de 1988</div></div>
+      <div class="n reveal"><div class="fig">~46/dia</div><div class="cap">alterações na legislação a cada dia útil</div></div>
+      <div class="n reveal"><div class="fig">1.500 h</div><div class="cap">por ano para uma empresa cumprir obrigações fiscais — entre as piores do mundo (Banco Mundial)</div></div>
+    </div>
+    <p class="lead reveal" style="margin-top:2rem">Antes mesmo de absorver a Reforma da <strong>Emenda Constitucional nº 132/2023</strong>. Nenhum humano mantém isso de cabeça enquanto cruza milhões de lançamentos.</p>
+  </section>
+
+<!-- ============ SLIDE 6 — PROVA SOCIAL ============ -->
+  <section class="slide" id="s6">
+    <div class="clickcue"><span class="pulse"></span>Clique para revelar as manchetes</div>
+    <div class="kicker">Quem já está nessa estrada</div>
+    <h2>Não é futuro.<br>É notícia de jornal.</h2>
+    <div class="headlines">
+      <div class="hl-card reveal">
+        <div class="src">Contec · Itaú &amp; Santander</div>
+        <div class="head">Bancos usam IA para rastrear ações suspeitas e barrar ameaças — <span class="stat">R$ 11 bi</span> investidos pelo Itaú em tecnologia (2024)</div>
+      </div>
+      <div class="hl-card reveal">
+        <div class="src">Feedzai · 2025</div>
+        <div class="head"><span class="stat">9 em cada 10</span> instituições financeiras já combatem fraudes com soluções de IA</div>
+      </div>
+      <div class="hl-card reveal">
+        <div class="src">Serpro · Febraban</div>
+        <div class="head">Empresa pública apresenta IA contra fraudes e <span class="stat">deepfakes</span> em congresso do setor</div>
+      </div>
+      <div class="hl-card reveal">
+        <div class="src">Polícia Federal · 2025</div>
+        <div class="head"><span class="stat">42,5%</span> das fraudes financeiras no país já envolveram ferramentas de IA</div>
+      </div>
+    </div>
+    <p class="lead reveal" style="margin-top:1.6rem;font-size:1rem">O ecossistema mundial se divide em duas camadas: empresas <em class="hl">horizontais</em> (a fundação, os grandes modelos) e <em class="hl">verticais</em> (especializadas — jurídico, contábil, fiscal). O município não constrói o modelo: escolhe bem a camada vertical.</p>
+  </section>
+
+<!-- ============ SLIDE 7 — PAPEL DO FISCAL (perspectiva c/ ilustração) ============ -->
+  <section class="slide" id="s7">
+    <div class="persp">
+      <div class="txtcol">
+        <div class="kicker">O papel do fiscal</div>
+        <h2>Copiloto.<br>Nunca piloto.</h2>
+        <p class="lead">A IA tira o trabalho mecânico e devolve o que define a profissão: análise, interpretação da norma, juízo.</p>
+        <p class="lead reveal">A decisão de autuar e o lançamento do crédito tributário são exercício do <strong>poder de polícia</strong> — e o poder de polícia, por lei e por natureza, é <em class="hl">indelegável</em>. A máquina não tem, e não pode ter, essa competência. Ela é de vocês.</p>
+      </div>
+      <div class="illus">
+        <!-- ilustração: cockpit / copiloto, baseada no texto -->
+        <img src="imgs/cockpit.svg" alt="cockpit" />
+        <div class="persp-cap">O fiscal aos comandos — a IA, ao lado, ampliando o alcance</div>
+      </div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 8 — 5W2H ============ -->
+  <section class="slide" id="s8">
+    <div class="kicker">O que a IA já faz</div>
+    <div class="concept">
+      <div class="txtcol">
+        <h2>O velho 5W2H,<br>respondido por máquina.</h2>
+        <p class="lead">Por décadas o computador só respondia ao fácil: <em class="hl">quem, quando, onde</em>. Bastava consultar um banco. O salto da IA está no difícil — o <em class="hl">porquê</em> e o <em class="hl">como</em>.</p>
+        <div class="w2h reveal">
+          <div><span>What</span> · <b>descreve</b></div>
+          <div><span>Why</span> · <b>explica</b></div>
+          <div><span>Who</span> · <b>identifica</b></div>
+          <div><span>When</span> · <b>data</b></div>
+          <div><span>Where</span> · <b>localiza</b></div>
+          <div><span>How</span> · <b>executa</b></div>
+          <div><span>How much</span> · <b>estima</b></div>
+          <div style="color:var(--gold-bright)">→ a IA <b>propõe</b>; você <b>decide</b></div>
+        </div>
+      </div>
+      <div class="art">
+        <img src="imgs/w2h.svg" alt="w2h" />
+      </div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 9 — LIMITES ============ -->
+  <section class="slide" id="s9">
+    <div class="kicker">Limites — de máquinas e de humanos</div>
+    <div class="concept">
+      <div class="txtcol">
+        <h2>Nenhum dos dois<br>é infalível.</h2>
+        <p class="lead">A IA tem <em class="hl">alucinações</em> — pode inventar um artigo de lei com cara de verdade — e <em class="hl">limite de memória</em>. O humano se cansa, se distrai, tem vieses, não lê milhões de registros.</p>
+        <p class="lead reveal">A solução não é confiar cego em nenhum. É desenhar o trabalho para que um corrija o outro: a máquina amplia o alcance, o humano valida o juízo. Os erros de um não são os erros do outro.</p>
+      </div>
+      <div class="art">
+        <img src="imgs/venn-limits.svg" alt="venn limits" />
+      </div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 10 — NÍVEIS / ESCADA ============ -->
+  <section class="slide" id="s10">
+    <div class="clickcue"><span class="pulse"></span>Clique para subir a escada</div>
+    <div class="kicker">Níveis de maturidade</div>
+    <div class="concept">
+      <div class="txtcol">
+        <h2>Uma escada,<br>quatro degraus.</h2>
+        <p class="lead">Muita gente acha que IA é só o chat. É só o primeiro degrau. No topo estão os <em class="hl">sistemas agênticos</em>: agentes autônomos que planejam, dividem o trabalho e colaboram entre si.</p>
+      </div>
+      <div class="art">
+        <img src="imgs/ladder.svg" alt="ladder" />
+      </div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 11 — EFICIÊNCIA x EFICÁCIA ============ -->
+  <section class="slide" id="s11">
+    <div class="clickcue"><span class="pulse"></span>Clique para o multiplicador</div>
+    <div class="kicker">A distinção que muda tudo</div>
+    <h2>Eficiência não é<br>eficácia.</h2>
+    <div class="effgrid">
+      <div class="box"><h3>Eficiência</h3><p>Fazer a tarefa do jeito certo — com menos esforço e menos tempo.</p></div>
+      <div class="box"><h3>Eficácia</h3><p>Fazer a tarefa <em class="hl">certa</em> — aquela que realmente produz resultado.</p></div>
+    </div>
+    <div class="reveal" style="margin-top:2rem;display:flex;align-items:center;gap:1.6rem;flex-wrap:wrap">
+      <span class="mult">10×</span>
+      <p class="lead" style="margin-top:0;max-width:40ch">O profissional <strong>sênior</strong>, que já sabe qual é a tarefa certa, multiplica a produtividade ao delegar a execução à IA. Nas mãos erradas, a IA só acelera o erro.</p>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 12 — GOVERNANÇA ============ -->
+  <section class="slide" id="s12">
+    <div class="kicker">Dados, governança &amp; LGPD</div>
+    <h2>Governança não é freio.<br>É a condição.</h2>
+    <p class="lead">Sem dado de qualidade, não há IA confiável. No setor público, ela opera sob a <strong>LGPD</strong> e o <strong>sigilo fiscal</strong>, com controle de acesso e supervisão humana.</p>
+    <p class="lead reveal">Se a IA aponta um contribuinte, ela precisa explicar o porquê — como um auto de infração precisa de <em class="hl">motivação</em>. IA sem fundamentação não se sustenta num processo. Assim como um lançamento sem motivação não se sustenta.</p>
+  </section>
+
+<!-- ============ SLIDE 13 — CAMADA ONTOLÓGICA ============ -->
+  <section class="slide" id="s13">
+    <div class="kicker">A fundação invisível</div>
+    <div class="concept">
+      <div class="txtcol">
+        <h2>A camada<br>ontológica.</h2>
+        <p class="lead">Um mapa de significados que ensina à máquina o que é um <strong>contribuinte</strong>, um <strong>fato gerador</strong>, o que separa um débito <em class="hl">suspenso</em> de um em <em class="hl">dívida ativa</em>.</p>
+        <p class="lead reveal">É para a IA o que as definições do Código Tributário são para o Direito. Sem o mapa, a IA adivinha. Com ele, ela raciocina sobre a realidade jurídica do município.</p>
+      </div>
+      <div class="art">
+        <img src="imgs/ontology.svg" alt="ontology" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SLIDE 14 — DEMONSTRAÇÃO CONSOLIDADA (6 etapas) ============ -->
+  <section class="slide" id="s14">
+    <div class="demo">
+      <div class="demo-head">
+        <div>
+          <div class="kicker" style="margin-bottom:.8rem">Demonstração ao vivo · 6 etapas</div>
+          <h2 style="font-size:clamp(1.5rem,3vw,2.4rem)">Do chat ao enxame de agentes</h2>
+        </div>
+        <div class="demo-tag">Use as setas ou clique nas etapas · troque os data-src</div>
+      </div>
+      <div class="demo-tabs">
+        <button class="demo-tab active" data-stage="0"><span>01</span> Chat com anexo</button>
+        <button class="demo-tab" data-stage="1"><span>02</span> MCP</button>
+        <button class="demo-tab" data-stage="2"><span>03</span> Agente autônomo</button>
+        <button class="demo-tab" data-stage="3"><span>04</span> Busca RAG + Ledger</button>
+        <button class="demo-tab" data-stage="4"><span>05</span> Dashboard</button>
+        <button class="demo-tab" data-stage="5"><span>06</span> Enxame de agentes</button>
+      </div>
+
+      <div class="demo-stage active" data-stage="0">
+        <p class="demo-desc"><b>Chat com anexo.</b> O primeiro degrau: o fiscal anexa um documento — uma declaração, um parecer, uma lei — e conversa com a IA sobre ele em linguagem natural.</p>
+        <div class="frame-wrap" style="height:42vh;margin-top:.8rem">
+          <div class="frame-bar"><span class="dot" style="background:#e0564d"></span><span class="dot" style="background:#e0a93a"></span><span class="dot" style="background:#3a8f88"></span><span class="url">https://seu-chat-com-anexo.local</span></div>
+          <iframe src="about:blank" title="Demo Chat com anexo" data-src="https://duckduckgo.com" loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+      </div>
+
+      <div class="demo-stage" data-stage="1">
+        <p class="demo-desc"><b>MCP — dados de mercado.</b> A tomada universal da IA busca cotações ao vivo e gera uma recomendação fundamentada. A mesma mecânica pode ler a base de arrecadação, com acesso <b>controlado e rastreável</b>. Recomendação, não ordem.</p>
+        <div class="frame-wrap" style="height:42vh;margin-top:.8rem">
+          <div class="frame-bar"><span class="dot" style="background:#e0564d"></span><span class="dot" style="background:#e0a93a"></span><span class="dot" style="background:#3a8f88"></span><span class="url">https://seu-mcp-financeiro.local</span></div>
+          <iframe src="about:blank" title="Demo MCP" data-src="https://finance.yahoo.com" loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+      </div>
+
+      <div class="demo-stage" data-stage="2">
+        <p class="demo-desc"><b>Agente autônomo.</b> Um agente lê dezenas de declarações em <b>PDF</b>, extrai os dados e preenche uma planilha sozinho. O que tirava um dia de digitação acontece enquanto você fala.</p>
+        <div class="frame-wrap" style="height:42vh;margin-top:.8rem">
+          <div class="frame-bar"><span class="dot" style="background:#e0564d"></span><span class="dot" style="background:#e0a93a"></span><span class="dot" style="background:#3a8f88"></span><span class="url">https://seu-agente-autonomo.local</span></div>
+          <iframe src="about:blank" title="Demo Agente autônomo" data-src="https://duckduckgo.com" loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+      </div>
+
+      <div class="demo-stage" data-stage="3">
+        <p class="demo-desc"><b>Busca inteligente: RAG + Ledger.</b> <b>RAG</b> consulta a lei (CTN, Código do Município); <b>Ledger</b> guarda o dado auditável. Em volta: <b>harness</b> (fluxo), <b>guardrails</b> (segurança e sigilo) e <b>agents</b> (execução). Resposta com a base legal citada.</p>
+        <div class="frame-wrap" style="height:42vh;margin-top:.8rem">
+          <div class="frame-bar"><span class="dot" style="background:#e0564d"></span><span class="dot" style="background:#e0a93a"></span><span class="dot" style="background:#3a8f88"></span><span class="url">https://seu-sistema-rag-ledger.local</span></div>
+          <iframe src="about:blank" title="Demo RAG + Ledger" data-src="https://duckduckgo.com" loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+      </div>
+
+      <div class="demo-stage" data-stage="4">
+        <p class="demo-desc"><b>Dashboard em tempo real · Superset.</b> Arrecadação, inadimplência e dívida ativa viram painéis vivos. O fiscal aplica um filtro — ISS por setor — e o painel responde <b>na hora</b>, sem chamado para a TI.</p>
+        <div class="frame-wrap" style="height:42vh;margin-top:.8rem">
+          <div class="frame-bar"><span class="dot" style="background:#e0564d"></span><span class="dot" style="background:#e0a93a"></span><span class="dot" style="background:#3a8f88"></span><span class="url">https://superset.suaprefeitura.gov.br/dashboard</span></div>
+          <iframe src="about:blank" title="Demo Superset" data-src="https://superset.apache.org" loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+      </div>
+
+      <div class="demo-stage" data-stage="5">
+        <p class="demo-desc"><b>Enxame de agentes.</b> O topo da escada: vários agentes especializados atuam em paralelo — um extrai, outro concilia, outro busca inconsistências — e entregam ao fiscal o resultado consolidado para validação.</p>
+        <div class="frame-wrap" style="height:42vh;margin-top:.8rem">
+          <div class="frame-bar"><span class="dot" style="background:#e0564d"></span><span class="dot" style="background:#e0a93a"></span><span class="dot" style="background:#3a8f88"></span><span class="url">https://seu-enxame-de-agentes.local</span></div>
+          <iframe src="about:blank" title="Demo Enxame de agentes" data-src="https://duckduckgo.com" loading="lazy" referrerpolicy="no-referrer"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 15 — PROPOSTA / ML ============ -->
+  <section class="slide" id="s15">
+    <div class="kicker">Proposta de implementação</div>
+    <h2>Generativa + Machine Learning.</h2>
+    <p class="lead">Três frentes para a Fazenda: <strong>detecção de inconsistências</strong>, <strong>análise preditiva</strong> de arrecadação e inadimplência, e <strong>auditoria assistida</strong> por risco.</p>
+    <p class="lead reveal">A IA generativa raciocina, mas é imprecisa com números. Combinada a <em class="hl">modelos estatísticos e de machine learning</em> treinados no histórico do município, a seleção de um contribuinte vem com uma <strong>probabilidade calculada, mensurável e auditável</strong> — não um palpite. A máquina indica e fundamenta; quem lança o crédito é o fiscal.</p>
+  </section>
+
+<!-- ============ SLIDE 16 — ROADMAP / POC ============ -->
+  <section class="slide" id="s16">
+    <div class="clickcue"><span class="pulse"></span>Clique para as 5 armadilhas</div>
+    <div class="kicker">Da POC à escala</div>
+    <h2>Comece pequeno.<br>Prove. Depois escale.</h2>
+    <p class="lead">A <strong>POC</strong> é o teste de bancada antes de comprar a fábrica — um caso real, de alto valor e baixo risco, como a triagem de inadimplência de ISS.</p>
+    <div class="agenda reveal" style="margin-top:1.6rem">
+      <div class="step"><span class="num">×1</span><span class="txt" style="font-size:1.15rem">Querer fazer tudo de uma vez</span></div>
+      <div class="step"><span class="num">×2</span><span class="txt" style="font-size:1.15rem">Escolher um caso sem dor real</span></div>
+      <div class="step"><span class="num">×3</span><span class="txt" style="font-size:1.15rem">Aplicar IA sobre dados sujos</span></div>
+      <div class="step"><span class="num">×4</span><span class="txt" style="font-size:1.15rem">Esquecer de treinar as pessoas</span></div>
+      <div class="step" style="border:0"><span class="num">×5</span><span class="txt" style="font-size:1.15rem">Não definir como medir o sucesso</span></div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 17 — OS CUSTOS DA IA ============ -->
+  <section class="slide" id="s17">
+    <div class="clickcue"><span class="pulse"></span>Clique para revelar as curvas</div>
+    <div class="kicker">Os custos da IA</div>
+    <div class="concept">
+      <div class="txtcol">
+        <h2>Mais barato.<br>E melhor.</h2>
+        <p class="lead">A IA cobra por <em class="hl">token</em> — o "selo postal" da era da IA. Um token é um pedaço de texto, cerca de <strong>4 letras</strong>, ou <strong>¾ de palavra</strong>. Você paga pelo que envia e pelo que recebe.</p>
+        <p class="lead reveal">Duas curvas se cruzaram: o <strong>preço por token despencou</strong> em ordens de grandeza, enquanto a <strong>capacidade disparou</strong> — modelos que leem centenas de páginas de uma vez. Tarefas inviáveis há 3 anos hoje custam <em class="hl">centavos</em>. Como o armazenamento e a energia solar: a barreira deixou de ser o custo.</p>
+      </div>
+      <div class="art">
+        <img src="imgs/cost-curves.svg" alt="cost curves" />
+      </div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 18 — REVOLUÇÕES (perspectiva c/ ilustração) ============ -->
+  <section class="slide" id="s18">
+    <div class="persp">
+      <div class="txtcol">
+        <div class="kicker">Uma nova revolução</div>
+        <h2>De novidade<br>a infraestrutura.</h2>
+        <div class="timeline">
+          <div class="era"><span class="yr">1ª</span><span class="ev">Máquina a vapor</span></div>
+          <div class="era"><span class="yr">2ª</span><span class="ev">Energia elétrica</span></div>
+          <div class="era"><span class="yr">3ª</span><span class="ev">Internet</span></div>
+          <div class="era now"><span class="yr">Agora</span><span class="ev">Inteligência Artificial</span></div>
+        </div>
+        <p class="lead reveal">Adotar a IA cedo, com governança, é como ter sido das primeiras cidades a ter luz elétrica: uma vantagem que se acumula. A pergunta não é <em>se</em> — é <em class="hl">quando</em>.</p>
+      </div>
+      <div class="illus">
+        <!-- ilustração: lâmpada/eletricidade virando rede -->
+        <img src="imgs/lightbulb-grid.svg" alt="lightbulb grid" />
+        <div class="persp-cap">A eletricidade deixou de ser novidade e virou rede invisível — a IA segue o mesmo caminho</div>
+      </div>
+    </div>
+  </section>
+
+<!-- ============ SLIDE 19 — PERGUNTAS / CONTATO ============ -->
+  <section class="slide" id="s19">
+    <div class="kicker">Obrigado</div>
+    <h1 style="font-size:clamp(2.4rem,7vw,6rem)">Perguntas?</h1>
+    <p class="lead" style="margin-top:2rem">Vamos continuar a conversa.</p>
+    <div class="meta reveal" style="font-family:var(--mono);font-size:.85rem;letter-spacing:.18em;color:var(--gold);margin-top:2rem;line-height:2;text-transform:uppercase">
+      [ Seu nome ] · [ Cargo / instituição ]<br>
+      [ e-mail ] · [ telefone ] · [ LinkedIn ]
+    </div>
+  </section>
+
+<!-- ============ SLIDE 20 — FRASE FINAL ============ -->
+  <section class="slide" id="s20">
+    <div class="kicker" style="justify-content:center">A síntese</div>
+    <p class="quote">"A Inteligência Artificial não substitui o fiscal, ela <em>amplia seu alcance</em>, <em>fundamenta seu juízo</em> e <em>devolve o tempo</em> que o trabalho roubou."</p>
+  </section>
+
+</div>
+
+<!-- ============ HUD ============ -->
+<div class="hud">
+  <span class="id" id="slideId">01 / 20</span>
+  <div class="dots" id="dots"></div>
+  <span class="id">IA · Finanças Públicas</span>
+</div>
+<div class="hint fade">
+  <span class="hint-desktop"><kbd>←</kbd> <kbd>→</kbd> navegar</span>
+  <span class="hint-desktop"><kbd>clique</kbd> animar</span>
+  <span class="hint-touch"><kbd>deslize</kbd> navegar</span>
+  <span class="hint-touch"><kbd>toque</kbd> animar</span>
+</div>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>
