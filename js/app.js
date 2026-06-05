@@ -22,6 +22,12 @@
   const progress = document.getElementById('progress');
   const slideId = document.getElementById('slideId');
 
+  // botões de navegação laterais
+  const navPrev = document.querySelector('.nav-prev');
+  const navNext = document.querySelector('.nav-next');
+  if(navPrev) navPrev.addEventListener('click', e=>{ e.stopPropagation(); prev(); });
+  if(navNext) navNext.addEventListener('click', e=>{ e.stopPropagation(); next(); });
+
   function render(){
     slides.forEach((s,i)=>{
       s.classList.remove('active','prev');
@@ -31,6 +37,8 @@
     dots.forEach((d,i)=>d.classList.toggle('on',i===cur));
     progress.style.width = ((cur+1)/total*100)+'%';
     slideId.textContent = String(cur+1).padStart(2,'0')+' / '+total;
+    if(navPrev) navPrev.classList.toggle('hidden', cur===0);
+    if(navNext) navNext.classList.toggle('hidden', cur===total-1);
     loadStageFrame(slides[cur]);
   }
 
@@ -155,16 +163,18 @@
     });
   });
 
-  // ----- CARROSSEL de imagens (avança no clique do mouse; sem autoplay) -----
+  // ----- CARROSSEL de imagens (click-advance OU autoplay via data-autoplay) -----
   document.querySelectorAll('[data-carousel]').forEach(car=>{
-    const track   = car.querySelector('.carousel-track');
-    const items   = Array.from(car.querySelectorAll('.carousel-item'));
-    const dotsBox = car.querySelector('.carousel-dots');
+    const track    = car.querySelector('.carousel-track');
+    const items    = Array.from(car.querySelectorAll('.carousel-item'));
+    const dotsBox  = car.querySelector('.carousel-dots');
+    const capLink  = car.querySelector('.carousel-cap-link');
+    const autoplay = car.hasAttribute('data-autoplay');
     if(!track || !items.length) return;
-    let idx = 0;
+    let idx = 0, timer = null;
     items.forEach((_,i)=>{
       const d = document.createElement('i');
-      d.addEventListener('click', e=>{ e.stopPropagation(); go(i); });
+      d.addEventListener('click', e=>{ e.stopPropagation(); go(i); rearm(); });
       if(dotsBox) dotsBox.appendChild(d);
     });
     const dots = dotsBox ? Array.from(dotsBox.children) : [];
@@ -172,31 +182,68 @@
       idx = (i % items.length + items.length) % items.length;
       track.style.transform = 'translateX(' + (-idx*100) + '%)';
       dots.forEach((d,j)=>d.classList.toggle('on', j===idx));
+      if(capLink){
+        const it = items[idx];
+        capLink.textContent = it.dataset.site || '';
+        capLink.setAttribute('href', it.dataset.url || '#');
+      }
     }
     function next(){ go(idx+1); }
     function prev(){ go(idx-1); }
+    function rearm(){ if(!autoplay) return; if(timer) clearInterval(timer); timer = setInterval(next, 4500); }
     const nb = car.querySelector('.carousel-btn.next');
     const pb = car.querySelector('.carousel-btn.prev');
-    if(nb) nb.addEventListener('click', e=>{ e.stopPropagation(); next(); });
-    if(pb) pb.addEventListener('click', e=>{ e.stopPropagation(); prev(); });
-    // clique do mouse sobre a imagem avança o carrossel
+    if(nb) nb.addEventListener('click', e=>{ e.stopPropagation(); next(); rearm(); });
+    if(pb) pb.addEventListener('click', e=>{ e.stopPropagation(); prev(); rearm(); });
     let swiped=false;
-    car.addEventListener('click', e=>{
-      if(e.target.closest('.carousel-btn') || e.target.closest('.carousel-dots')) return;
-      if(swiped){ swiped=false; return; }
-      next();
-    });
-    // swipe (mobile) troca a imagem, não o slide
+    if(!autoplay){
+      // sem autoplay: clique na imagem avança (ignora setas/dots/links)
+      car.addEventListener('click', e=>{
+        if(e.target.closest('.carousel-btn')||e.target.closest('.carousel-dots')||e.target.closest('a')) return;
+        if(swiped){ swiped=false; return; }
+        next();
+      });
+    } else {
+      // autoplay: pausa no hover, retoma ao sair
+      car.addEventListener('mouseenter', ()=>{ if(timer){ clearInterval(timer); timer=null; } });
+      car.addEventListener('mouseleave', rearm);
+    }
+    // swipe (mobile) troca a imagem
     let sx=0, sActive=false;
     car.addEventListener('touchstart', e=>{ sx=e.changedTouches[0].clientX; sActive=true; swiped=false; }, {passive:true});
     car.addEventListener('touchend', e=>{ if(!sActive) return; sActive=false;
       const dx=e.changedTouches[0].clientX - sx;
-      if(Math.abs(dx)>40){ swiped=true; (dx<0?next:prev)(); } });
-    go(0);
+      if(Math.abs(dx)>40){ swiped=true; (dx<0?next:prev)(); rearm(); } });
+    go(0); rearm();
   });
 
-  // keyboard: arrows navigate (stage-aware)
+  // ----- MODAIS (zoom de imagem / iframe de link externo) -----
+  const imgModal = document.getElementById('imgModal');
+  const iframeModal = document.getElementById('iframeModal');
+  function openImgModal(src, alt){
+    if(!imgModal || !src) return;
+    const mi = imgModal.querySelector('.modal-img');
+    mi.setAttribute('src', src); mi.setAttribute('alt', alt || 'Imagem ampliada');
+    imgModal.classList.add('open'); imgModal.setAttribute('aria-hidden','false');
+  }
+  function openIframeModal(url){
+    if(!iframeModal || !url) return;
+    iframeModal.querySelector('.modal-iframe').setAttribute('src', url);
+    iframeModal.classList.add('open'); iframeModal.setAttribute('aria-hidden','false');
+  }
+  function modalOpen(){ return !!document.querySelector('.modal.open'); }
+  function closeModals(){
+    [imgModal, iframeModal].forEach(m=>{ if(m){ m.classList.remove('open'); m.setAttribute('aria-hidden','true'); } });
+    if(iframeModal) iframeModal.querySelector('.modal-iframe').setAttribute('src','about:blank');
+    if(imgModal) imgModal.querySelector('.modal-img').setAttribute('src','');
+  }
+  document.querySelectorAll('.modal').forEach(m=>{
+    m.addEventListener('click', e=>{ if(e.target===m || e.target.closest('.modal-close')) closeModals(); });
+  });
+
+  // keyboard: arrows navigate (stage-aware); modal aberto só responde a Esc
   document.addEventListener('keydown',e=>{
+    if(modalOpen()){ if(e.key==='Escape') closeModals(); return; }
     if(e.key==='ArrowRight'||e.key==='PageDown'){ e.preventDefault(); next(); }
     else if(e.key==='ArrowLeft'||e.key==='PageUp'){ e.preventDefault(); prev(); }
     else if(e.key==='Home'){ goTo(0); }
@@ -211,7 +258,15 @@
   let suppressClick = false;
   document.addEventListener('click',e=>{
     if(suppressClick){ suppressClick=false; return; }
-    if(e.target.closest('.dots')||e.target.closest('.demo-tab')||e.target.closest('.accordion')||e.target.closest('.carousel')||e.target.closest('iframe')||e.target.closest('.frame-wrap')||e.target.closest('a')) return;
+    // ícone com modal-link → abre o modal de iframe
+    const ml = e.target.closest('[modal-link]');
+    if(ml){ e.stopPropagation(); openIframeModal(ml.getAttribute('modal-link')); return; }
+    // imagem fora de carrossel/modal → abre o modal de zoom
+    const img = e.target.closest('img');
+    if(img && !img.closest('.carousel') && !img.closest('.modal')){
+      openImgModal(img.getAttribute('src'), img.getAttribute('alt')); return;
+    }
+    if(e.target.closest('.dots')||e.target.closest('.demo-tab')||e.target.closest('.accordion')||e.target.closest('.carousel')||e.target.closest('.nav-btn')||e.target.closest('.modal')||e.target.closest('iframe')||e.target.closest('.frame-wrap')||e.target.closest('a')) return;
     tapAction();
   });
 
@@ -226,7 +281,7 @@
 
   document.addEventListener('touchstart',e=>{
     // ignora gestos que começam sobre conteúdo interativo
-    if(e.target.closest('.dots')||e.target.closest('.demo-tab')||e.target.closest('.accordion')||e.target.closest('.carousel')||e.target.closest('iframe')||e.target.closest('.frame-wrap')||e.target.closest('a')){
+    if(e.target.closest('.dots')||e.target.closest('.demo-tab')||e.target.closest('.accordion')||e.target.closest('.carousel')||e.target.closest('.nav-btn')||e.target.closest('.modal')||e.target.closest('iframe')||e.target.closest('.frame-wrap')||e.target.closest('a')){
       tValid=false; return;
     }
     const t=e.changedTouches[0];
@@ -251,9 +306,16 @@
       return;
     }
 
-    // TAP: quase sem movimento → revela a próxima animação (igual ao clique no desktop)
+    // TAP: quase sem movimento → modal (img/modal-link) ou revela a próxima animação
     if(absX<=TAP_MAX && absY<=TAP_MAX){
-      suppressClick=true;           // evita que o clique fantasma revele de novo
+      suppressClick=true;           // evita que o clique fantasma aja de novo
+      const tgt=e.target;
+      const ml = tgt.closest && tgt.closest('[modal-link]');
+      if(ml){ openIframeModal(ml.getAttribute('modal-link')); return; }
+      const img = tgt.closest && tgt.closest('img');
+      if(img && !img.closest('.carousel') && !img.closest('.modal')){
+        openImgModal(img.getAttribute('src'), img.getAttribute('alt')); return;
+      }
       tapAction();
     }
   }, {passive:true});
