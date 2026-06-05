@@ -3,6 +3,9 @@
 Apresentação interativa em HTML/CSS/JS sobre a aplicação de Inteligência
 Artificial nas Finanças Públicas, voltada a Fiscais de Tributos Municipais.
 
+🔗 **Apresentação publicada:** https://apresentacao-ia-fiscal-2026.netlify.app
+📦 **Repositório:** https://github.com/lorduakiti/apresentacao-ia-fiscal-2026
+
 ## Como rodar localmente
 Por serem arquivos separados, **não** abra o `index.html` por duplo-clique
 (o navegador bloqueia o carregamento das imagens). Sirva a pasta:

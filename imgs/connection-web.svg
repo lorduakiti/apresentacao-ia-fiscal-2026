@@ -2,465 +2,465 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice">
 <defs>
 <radialGradient id="webglow" cx="50%" cy="42%" r="62%">
-<stop offset="0" stop-color="rgba(212,162,58,.10)"/>
+<stop offset="0" stop-color="rgba(90,176,230,.10)"/>
 <stop offset="1" stop-color="transparent"/>
 </radialGradient>
 </defs>
 <rect width="1000" height="600" fill="url(#webglow)"/>
 <g>
 <animateTransform attributeName="transform" type="translate" values="15.8 -3.0;12.9 6.7;2.5 12.5;-9.4 10.9;-15.8 3.0;-12.9 -6.7;-2.5 -12.5;9.4 -10.9;15.8 -3.0" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="-9.7" y1="-18.4" x2="61.8" y2="-20.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="-9.7" y1="-18.4" x2="-2.7" y2="48.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="-9.7" cy="-18.4" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="-9.7" y1="-18.4" x2="61.8" y2="-20.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="-9.7" y1="-18.4" x2="-2.7" y2="48.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="-9.7" cy="-18.4" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="4.8 12.1;-7.4 5.6;-15.3 -4.2;-14.2 -11.5;-4.8 -12.1;7.4 -5.6;15.3 4.2;14.2 11.5;4.8 12.1" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="133.3" y1="-22.6" x2="61.8" y2="-20.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="133.3" y1="-22.6" x2="192.6" y2="-14.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="133.3" y1="-22.6" x2="142.2" y2="36.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="133.3" cy="-22.6" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="133.3" y1="-22.6" x2="61.8" y2="-20.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="133.3" y1="-22.6" x2="192.6" y2="-14.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="133.3" y1="-22.6" x2="142.2" y2="36.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="133.3" cy="-22.6" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-12.9 -7.5;-15.8 -12.6;-9.4 -10.4;2.5 -2.0;12.9 7.5;15.8 12.6;9.4 10.4;-2.5 2.0;-12.9 -7.5" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="252.0" y1="-7.1" x2="192.6" y2="-14.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="252.0" y1="-7.1" x2="301.3" y2="-3.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="252.0" y1="-7.1" x2="201.6" y2="44.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="252.0" y1="-7.1" x2="260.8" y2="50.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="252.0" y1="-7.1" x2="303.7" y2="46.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="252.0" cy="-7.1" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="252.0" y1="-7.1" x2="192.6" y2="-14.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="252.0" y1="-7.1" x2="301.3" y2="-3.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="252.0" y1="-7.1" x2="201.6" y2="44.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="252.0" y1="-7.1" x2="260.8" y2="50.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="252.0" y1="-7.1" x2="303.7" y2="46.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="252.0" cy="-7.1" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-14.8 -10.7;-6.2 -2.6;6.0 7.0;14.7 12.5;14.8 10.7;6.2 2.6;-6.0 -7.0;-14.7 -12.5;-14.8 -10.7" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="350.7" y1="0.4" x2="301.3" y2="-3.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="350.7" y1="0.4" x2="412.6" y2="-1.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="350.7" y1="0.4" x2="310.2" y2="54.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="350.7" y1="0.4" x2="353.1" y2="50.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<circle cx="350.7" cy="0.4" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="350.7" y1="0.4" x2="301.3" y2="-3.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="350.7" y1="0.4" x2="412.6" y2="-1.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="350.7" y1="0.4" x2="310.2" y2="54.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="350.7" y1="0.4" x2="353.1" y2="50.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<circle cx="350.7" cy="0.4" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="0.8 9.7;11.8 12.8;16.0 8.4;10.8 -0.9;-0.8 -9.7;-11.8 -12.8;-16.0 -8.4;-10.8 0.9;0.8 9.7" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="474.6" y1="-3.5" x2="412.6" y2="-1.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="474.6" y1="-3.5" x2="538.0" y2="-12.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="474.6" y1="-3.5" x2="415.0" y2="48.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="474.6" y1="-3.5" x2="482.0" y2="66.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="474.6" cy="-3.5" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="474.6" y1="-3.5" x2="412.6" y2="-1.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="474.6" y1="-3.5" x2="538.0" y2="-12.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="474.6" y1="-3.5" x2="415.0" y2="48.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="474.6" y1="-3.5" x2="482.0" y2="66.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="474.6" cy="-3.5" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="15.3 5.7;14.2 -4.1;4.8 -11.5;-7.4 -12.1;-15.3 -5.7;-14.2 4.1;-4.8 11.5;7.4 12.1;15.3 5.7" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="601.3" y1="-21.6" x2="538.0" y2="-12.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="601.3" y1="-21.6" x2="673.6" y2="-2.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="601.3" y1="-21.6" x2="604.4" y2="51.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="601.3" cy="-21.6" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="601.3" y1="-21.6" x2="538.0" y2="-12.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="601.3" y1="-21.6" x2="673.6" y2="-2.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="601.3" y1="-21.6" x2="604.4" y2="51.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="601.3" cy="-21.6" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="4.8 -12.1;-7.4 -5.6;-15.3 4.2;-14.2 11.5;-4.8 12.1;7.4 5.6;15.3 -4.2;14.2 -11.5;4.8 -12.1" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="745.8" y1="17.3" x2="673.6" y2="-2.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="745.8" y1="17.3" x2="800.1" y2="1.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="745.8" y1="17.3" x2="751.7" y2="65.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="745.8" y1="17.3" x2="811.7" y2="57.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="745.8" cy="17.3" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="745.8" y1="17.3" x2="673.6" y2="-2.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="745.8" y1="17.3" x2="800.1" y2="1.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="745.8" y1="17.3" x2="751.7" y2="65.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="745.8" y1="17.3" x2="811.7" y2="57.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="745.8" cy="17.3" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-10.2 3.1;-15.9 11.0;-12.4 12.4;-1.5 6.6;10.2 -3.1;15.9 -11.0;12.4 -12.4;1.5 -6.6;-10.2 3.1" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="854.3" y1="-14.6" x2="800.1" y2="1.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="854.3" y1="-14.6" x2="930.7" y2="4.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="854.3" y1="-14.6" x2="806.0" y2="49.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="854.3" y1="-14.6" x2="866.0" y2="41.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<circle cx="854.3" cy="-14.6" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="854.3" y1="-14.6" x2="800.1" y2="1.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="854.3" y1="-14.6" x2="930.7" y2="4.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="854.3" y1="-14.6" x2="806.0" y2="49.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="854.3" y1="-14.6" x2="866.0" y2="41.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<circle cx="854.3" cy="-14.6" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-11.5 5.1;-0.2 -4.7;11.2 -11.7;16.0 -11.9;11.5 -5.1;0.2 4.7;-11.2 11.7;-16.0 11.9;-11.5 5.1" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="1007.0" y1="23.6" x2="930.7" y2="4.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="1007.0" y1="23.6" x2="942.3" y2="60.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="1007.0" y1="23.6" x2="991.4" y2="64.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<circle cx="1007.0" cy="23.6" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="1007.0" y1="23.6" x2="930.7" y2="4.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="1007.0" y1="23.6" x2="942.3" y2="60.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="1007.0" y1="23.6" x2="991.4" y2="64.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<circle cx="1007.0" cy="23.6" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="14.7 7.3;6.0 12.6;-6.3 10.5;-14.8 2.3;-14.7 -7.3;-6.0 -12.6;6.3 -10.5;14.8 -2.3;14.7 7.3" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="4.2" y1="114.5" x2="-2.7" y2="48.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="4.2" y1="114.5" x2="77.7" y2="105.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="4.2" y1="114.5" x2="7.1" y2="175.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="4.2" cy="114.5" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="4.2" y1="114.5" x2="-2.7" y2="48.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="4.2" y1="114.5" x2="77.7" y2="105.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="4.2" y1="114.5" x2="7.1" y2="175.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="4.2" cy="114.5" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-4.0 5.1;-13.8 -4.7;-15.5 -11.7;-8.1 -11.9;4.0 -5.1;13.8 4.7;15.5 11.7;8.1 11.9;-4.0 5.1" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="151.2" y1="96.1" x2="142.2" y2="36.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="151.2" y1="96.1" x2="201.6" y2="44.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="151.2" y1="96.1" x2="77.7" y2="105.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="151.2" y1="96.1" x2="210.5" y2="102.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="151.2" y1="96.1" x2="133.0" y2="170.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="151.2" y1="96.1" x2="199.3" y2="162.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="151.2" cy="96.1" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="151.2" y1="96.1" x2="142.2" y2="36.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="151.2" y1="96.1" x2="201.6" y2="44.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="151.2" y1="96.1" x2="77.7" y2="105.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="151.2" y1="96.1" x2="210.5" y2="102.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="151.2" y1="96.1" x2="133.0" y2="170.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="151.2" y1="96.1" x2="199.3" y2="162.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="151.2" cy="96.1" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-15.9 -12.7;-12.3 -10.2;-1.4 -1.7;10.3 7.8;15.9 12.7;12.3 10.2;1.4 1.7;-10.3 -7.8;-15.9 -12.7" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="269.7" y1="108.9" x2="260.8" y2="50.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="269.7" y1="108.9" x2="310.2" y2="54.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="269.7" y1="108.9" x2="210.5" y2="102.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="269.7" y1="108.9" x2="312.6" y2="104.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.11"/>
-<line x1="269.7" y1="108.9" x2="258.6" y2="169.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="269.7" cy="108.9" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="269.7" y1="108.9" x2="260.8" y2="50.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="269.7" y1="108.9" x2="310.2" y2="54.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="269.7" y1="108.9" x2="210.5" y2="102.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="269.7" y1="108.9" x2="312.6" y2="104.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.11"/>
+<line x1="269.7" y1="108.9" x2="258.6" y2="169.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="269.7" cy="108.9" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-11.8 -5.6;-0.6 4.2;10.9 11.5;16.0 12.1;11.8 5.6;0.6 -4.2;-10.9 -11.5;-16.0 -12.1;-11.8 -5.6" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="355.4" y1="99.8" x2="303.7" y2="46.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="355.4" y1="99.8" x2="353.1" y2="50.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="355.4" y1="99.8" x2="415.0" y2="48.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="355.4" y1="99.8" x2="312.6" y2="104.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.11"/>
-<line x1="355.4" y1="99.8" x2="422.5" y2="118.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="355.4" y1="99.8" x2="373.3" y2="175.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="355.4" cy="99.8" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="355.4" y1="99.8" x2="303.7" y2="46.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="355.4" y1="99.8" x2="353.1" y2="50.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="355.4" y1="99.8" x2="415.0" y2="48.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="355.4" y1="99.8" x2="312.6" y2="104.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.11"/>
+<line x1="355.4" y1="99.8" x2="422.5" y2="118.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="355.4" y1="99.8" x2="373.3" y2="175.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="355.4" cy="99.8" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="9.5 12.6;15.8 7.4;12.9 -2.2;2.4 -10.5;-9.5 -12.6;-15.8 -7.4;-12.9 2.2;-2.4 10.5;9.5 12.6" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="489.5" y1="136.7" x2="482.0" y2="66.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="489.5" y1="136.7" x2="422.5" y2="118.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="489.5" y1="136.7" x2="548.5" y2="130.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="489.5" y1="136.7" x2="440.3" y2="193.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="489.5" y1="136.7" x2="487.7" y2="190.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<circle cx="489.5" cy="136.7" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="489.5" y1="136.7" x2="482.0" y2="66.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="489.5" y1="136.7" x2="422.5" y2="118.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="489.5" y1="136.7" x2="548.5" y2="130.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="489.5" y1="136.7" x2="440.3" y2="193.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="489.5" y1="136.7" x2="487.7" y2="190.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<circle cx="489.5" cy="136.7" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="15.6 -4.0;8.7 -11.4;-3.4 -12.1;-13.5 -5.7;-15.6 4.0;-8.7 11.4;3.4 12.1;13.5 5.7;15.6 -4.0" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="607.4" y1="124.3" x2="604.4" y2="51.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="607.4" y1="124.3" x2="548.5" y2="130.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="607.4" y1="124.3" x2="682.5" y2="118.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="607.4" y1="124.3" x2="616.9" y2="192.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="607.4" cy="124.3" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="607.4" y1="124.3" x2="604.4" y2="51.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="607.4" y1="124.3" x2="548.5" y2="130.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="607.4" y1="124.3" x2="682.5" y2="118.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="607.4" y1="124.3" x2="616.9" y2="192.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="607.4" cy="124.3" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-1.9 -7.3;-12.6 2.3;-15.9 10.5;-9.9 12.6;1.9 7.3;12.6 -2.3;15.9 -10.5;9.9 -12.6;-1.9 -7.3" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="757.6" y1="113.3" x2="751.7" y2="65.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="757.6" y1="113.3" x2="806.0" y2="49.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="757.6" y1="113.3" x2="682.5" y2="118.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="757.6" y1="113.3" x2="817.6" y2="105.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="757.6" y1="113.3" x2="760.1" y2="171.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<circle cx="757.6" cy="113.3" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="757.6" y1="113.3" x2="751.7" y2="65.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="757.6" y1="113.3" x2="806.0" y2="49.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="757.6" y1="113.3" x2="682.5" y2="118.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="757.6" y1="113.3" x2="817.6" y2="105.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="757.6" y1="113.3" x2="760.1" y2="171.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<circle cx="757.6" cy="113.3" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-15.3 11.5;-14.1 12.1;-4.7 5.5;7.5 -4.3;15.3 -11.5;14.1 -12.1;4.7 -5.5;-7.5 4.3;-15.3 11.5" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="877.6" y1="96.9" x2="811.7" y2="57.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="877.6" y1="96.9" x2="866.0" y2="41.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="877.6" y1="96.9" x2="942.3" y2="60.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="877.6" y1="96.9" x2="817.6" y2="105.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="877.6" y1="96.9" x2="926.7" y2="100.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="877.6" y1="96.9" x2="889.5" y2="158.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="877.6" cy="96.9" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="877.6" y1="96.9" x2="811.7" y2="57.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="877.6" y1="96.9" x2="866.0" y2="41.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="877.6" y1="96.9" x2="942.3" y2="60.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="877.6" y1="96.9" x2="817.6" y2="105.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="877.6" y1="96.9" x2="926.7" y2="100.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="877.6" y1="96.9" x2="889.5" y2="158.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="877.6" cy="96.9" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-12.1 6.2;-1.2 -3.6;10.5 -11.2;16.0 -12.3;12.1 -6.2;1.2 3.6;-10.5 11.2;-16.0 12.3;-12.1 6.2" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="975.8" y1="104.5" x2="991.4" y2="64.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<line x1="975.8" y1="104.5" x2="926.7" y2="100.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="975.8" y1="104.5" x2="938.6" y2="162.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="975.8" y1="104.5" x2="985.6" y2="179.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="975.8" cy="104.5" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="975.8" y1="104.5" x2="991.4" y2="64.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<line x1="975.8" y1="104.5" x2="926.7" y2="100.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="975.8" y1="104.5" x2="938.6" y2="162.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="975.8" y1="104.5" x2="985.6" y2="179.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="975.8" cy="104.5" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="10.7 12.2;-0.9 11.4;-11.9 3.9;-16.0 -5.9;-10.7 -12.2;0.9 -11.4;11.9 -3.9;16.0 5.9;10.7 12.2" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="9.9" y1="236.2" x2="7.1" y2="175.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="9.9" y1="236.2" x2="62.4" y2="240.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="9.9" y1="236.2" x2="-4.6" y2="297.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="9.9" y1="236.2" x2="54.8" y2="302.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="9.9" cy="236.2" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="9.9" y1="236.2" x2="7.1" y2="175.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="9.9" y1="236.2" x2="62.4" y2="240.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="9.9" y1="236.2" x2="-4.6" y2="297.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="9.9" y1="236.2" x2="54.8" y2="302.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="9.9" cy="236.2" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-5.5 3.3;-14.5 -6.4;-15.0 -12.4;-6.7 -11.1;5.5 -3.3;14.5 6.4;15.0 12.4;6.7 11.1;-5.5 3.3" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="114.8" y1="244.5" x2="133.0" y2="170.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="114.8" y1="244.5" x2="62.4" y2="240.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="114.8" y1="244.5" x2="181.1" y2="237.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="114.8" y1="244.5" x2="107.2" y2="306.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="114.8" cy="244.5" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="114.8" y1="244.5" x2="133.0" y2="170.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="114.8" y1="244.5" x2="62.4" y2="240.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="114.8" y1="244.5" x2="181.1" y2="237.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="114.8" y1="244.5" x2="107.2" y2="306.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="114.8" cy="244.5" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-16.0 -12.7;-10.5 -8.1;1.1 1.3;12.0 9.9;16.0 12.7;10.5 8.1;-1.1 -1.3;-12.0 -9.9;-16.0 -12.7" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="247.4" y1="229.4" x2="199.3" y2="162.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="247.4" y1="229.4" x2="258.6" y2="169.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="247.4" y1="229.4" x2="181.1" y2="237.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="247.4" y1="229.4" x2="319.3" y2="240.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="247.4" y1="229.4" x2="256.0" y2="296.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="247.4" cy="229.4" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="247.4" y1="229.4" x2="199.3" y2="162.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="247.4" y1="229.4" x2="258.6" y2="169.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="247.4" y1="229.4" x2="181.1" y2="237.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="247.4" y1="229.4" x2="319.3" y2="240.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="247.4" y1="229.4" x2="256.0" y2="296.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="247.4" cy="229.4" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="0.1 9.1;11.4 12.8;16.0 9.0;11.2 -0.1;-0.1 -9.1;-11.4 -12.8;-16.0 -9.0;-11.2 0.1;0.1 9.1" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="391.2" y1="250.5" x2="373.3" y2="175.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="391.2" y1="250.5" x2="440.3" y2="193.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="391.2" y1="250.5" x2="319.3" y2="240.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="391.2" y1="250.5" x2="438.6" y2="247.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="391.2" y1="250.5" x2="393.4" y2="300.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<circle cx="391.2" cy="250.5" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="391.2" y1="250.5" x2="373.3" y2="175.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="391.2" y1="250.5" x2="440.3" y2="193.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="391.2" y1="250.5" x2="319.3" y2="240.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="391.2" y1="250.5" x2="438.6" y2="247.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="391.2" y1="250.5" x2="393.4" y2="300.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<circle cx="391.2" cy="250.5" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="12.9 10.4;15.8 2.1;9.4 -7.5;-2.4 -12.6;-12.9 -10.4;-15.8 -2.1;-9.4 7.5;2.4 12.6;12.9 10.4" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="485.9" y1="243.9" x2="487.7" y2="190.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="485.9" y1="243.9" x2="438.6" y2="247.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="485.9" y1="243.9" x2="556.2" y2="251.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="485.9" y1="243.9" x2="440.8" y2="297.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="485.9" y1="243.9" x2="498.3" y2="304.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="485.9" cy="243.9" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="485.9" y1="243.9" x2="487.7" y2="190.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="485.9" y1="243.9" x2="438.6" y2="247.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="485.9" y1="243.9" x2="556.2" y2="251.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="485.9" y1="243.9" x2="440.8" y2="297.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="485.9" y1="243.9" x2="498.3" y2="304.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="485.9" cy="243.9" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="10.8 -12.1;-0.7 -11.5;-11.8 -4.1;-16.0 5.7;-10.8 12.1;0.7 11.5;11.8 4.1;16.0 -5.7;10.8 -12.1" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="626.4" y1="259.8" x2="616.9" y2="192.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="626.4" y1="259.8" x2="556.2" y2="251.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="626.4" y1="259.8" x2="694.5" y2="244.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="626.4" y1="259.8" x2="568.6" y2="312.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="626.4" y1="259.8" x2="627.9" y2="308.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<circle cx="626.4" cy="259.8" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="626.4" y1="259.8" x2="616.9" y2="192.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="626.4" y1="259.8" x2="556.2" y2="251.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="626.4" y1="259.8" x2="694.5" y2="244.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="626.4" y1="259.8" x2="568.6" y2="312.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="626.4" y1="259.8" x2="627.9" y2="308.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<circle cx="626.4" cy="259.8" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-8.1 0.2;-15.5 9.2;-13.8 12.8;-4.0 8.9;8.1 -0.2;15.5 -9.2;13.8 -12.8;4.0 -8.9;-8.1 0.2" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="762.6" y1="228.8" x2="760.1" y2="171.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="762.6" y1="228.8" x2="694.5" y2="244.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="762.6" y1="228.8" x2="832.0" y2="224.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="762.6" y1="228.8" x2="765.7" y2="306.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="762.6" cy="228.8" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="762.6" y1="228.8" x2="760.1" y2="171.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="762.6" y1="228.8" x2="694.5" y2="244.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="762.6" y1="228.8" x2="832.0" y2="224.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="762.6" y1="228.8" x2="765.7" y2="306.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="762.6" cy="228.8" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-15.1 11.3;-7.1 3.7;5.2 -6.0;14.4 -12.3;15.1 -11.3;7.1 -3.7;-5.2 6.0;-14.4 12.3;-15.1 11.3" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="901.4" y1="219.8" x2="889.5" y2="158.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="901.4" y1="219.8" x2="938.6" y2="162.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="901.4" y1="219.8" x2="832.0" y2="224.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="901.4" y1="219.8" x2="948.5" y2="236.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="901.4" y1="219.8" x2="887.5" y2="294.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="901.4" cy="219.8" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="901.4" y1="219.8" x2="889.5" y2="158.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="901.4" y1="219.8" x2="938.6" y2="162.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="901.4" y1="219.8" x2="832.0" y2="224.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="901.4" y1="219.8" x2="948.5" y2="236.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="901.4" y1="219.8" x2="887.5" y2="294.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="901.4" cy="219.8" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-3.0 -6.1;9.0 -12.3;15.7 -11.2;13.3 -3.6;3.0 6.1;-9.0 12.3;-15.7 11.2;-13.3 3.6;-3.0 -6.1" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="995.5" y1="253.6" x2="985.6" y2="179.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="995.5" y1="253.6" x2="948.5" y2="236.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="995.5" y1="253.6" x2="985.7" y2="312.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="995.5" cy="253.6" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="995.5" y1="253.6" x2="985.6" y2="179.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="995.5" y1="253.6" x2="948.5" y2="236.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="995.5" y1="253.6" x2="985.7" y2="312.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="995.5" cy="253.6" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="9.5 12.6;-2.4 10.4;-12.9 2.1;-15.8 -7.4;-9.5 -12.6;2.4 -10.4;12.9 -2.1;15.8 7.4;9.5 12.6" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="-19.1" y1="359.4" x2="-4.6" y2="297.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="-19.1" y1="359.4" x2="40.3" y2="364.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="-19.1" y1="359.4" x2="-5.5" y2="432.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="-19.1" cy="359.4" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="-19.1" y1="359.4" x2="-4.6" y2="297.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="-19.1" y1="359.4" x2="40.3" y2="364.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="-19.1" y1="359.4" x2="-5.5" y2="432.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="-19.1" cy="359.4" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-8.9 -1.3;-15.7 -9.9;-13.3 -12.7;-3.1 -8.1;8.9 1.3;15.7 9.9;13.3 12.7;3.1 8.1;-8.9 -1.3" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="99.7" y1="368.9" x2="54.8" y2="302.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="99.7" y1="368.9" x2="107.2" y2="306.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="99.7" y1="368.9" x2="40.3" y2="364.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="99.7" y1="368.9" x2="182.1" y2="366.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="99.7" y1="368.9" x2="53.9" y2="437.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="99.7" y1="368.9" x2="121.2" y2="418.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<circle cx="99.7" cy="368.9" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="99.7" y1="368.9" x2="54.8" y2="302.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="99.7" y1="368.9" x2="107.2" y2="306.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="99.7" y1="368.9" x2="40.3" y2="364.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="99.7" y1="368.9" x2="182.1" y2="366.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="99.7" y1="368.9" x2="53.9" y2="437.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="99.7" y1="368.9" x2="121.2" y2="418.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<circle cx="99.7" cy="368.9" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-12.6 -7.0;-2.0 2.6;9.8 10.7;15.9 12.5;12.6 7.0;2.0 -2.6;-9.8 -10.7;-15.9 -12.5;-12.6 -7.0" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="264.6" y1="363.9" x2="256.0" y2="296.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="264.6" y1="363.9" x2="182.1" y2="366.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="264.6" y1="363.9" x2="330.1" y2="357.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="264.6" y1="363.9" x2="203.6" y2="416.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="264.6" y1="363.9" x2="254.1" y2="426.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="264.6" y1="363.9" x2="306.6" y2="420.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="264.6" cy="363.9" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="264.6" y1="363.9" x2="256.0" y2="296.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="264.6" y1="363.9" x2="182.1" y2="366.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="264.6" y1="363.9" x2="330.1" y2="357.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="264.6" y1="363.9" x2="203.6" y2="416.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="264.6" y1="363.9" x2="254.1" y2="426.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="264.6" y1="363.9" x2="306.6" y2="420.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="264.6" cy="363.9" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="5.7 12.4;14.6 10.9;14.9 3.0;6.5 -6.7;-5.7 -12.4;-14.6 -10.9;-14.9 -3.0;-6.5 6.7;5.7 12.4" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="395.7" y1="350.2" x2="393.4" y2="300.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="395.7" y1="350.2" x2="440.8" y2="297.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="395.7" y1="350.2" x2="330.1" y2="357.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="395.7" y1="350.2" x2="453.2" y2="357.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="395.7" y1="350.2" x2="372.2" y2="414.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="395.7" y1="350.2" x2="438.7" y2="405.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="395.7" cy="350.2" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="395.7" y1="350.2" x2="393.4" y2="300.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="395.7" y1="350.2" x2="440.8" y2="297.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="395.7" y1="350.2" x2="330.1" y2="357.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="395.7" y1="350.2" x2="453.2" y2="357.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="395.7" y1="350.2" x2="372.2" y2="414.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="395.7" y1="350.2" x2="438.7" y2="405.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="395.7" cy="350.2" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="16.0 0.0;11.3 -9.0;0.0 -12.8;-11.3 -9.1;-16.0 -0.0;-11.3 9.0;-0.0 12.8;11.3 9.1;16.0 0.0" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="510.7" y1="365.0" x2="498.3" y2="304.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="510.7" y1="365.0" x2="568.6" y2="312.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="510.7" y1="365.0" x2="453.2" y2="357.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="510.7" y1="365.0" x2="570.1" y2="361.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="510.7" y1="365.0" x2="496.2" y2="412.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="510.7" y1="365.0" x2="555.7" y2="429.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="510.7" cy="365.0" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="510.7" y1="365.0" x2="498.3" y2="304.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="510.7" y1="365.0" x2="568.6" y2="312.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="510.7" y1="365.0" x2="453.2" y2="357.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="510.7" y1="365.0" x2="570.1" y2="361.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="510.7" y1="365.0" x2="496.2" y2="412.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="510.7" y1="365.0" x2="555.7" y2="429.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="510.7" cy="365.0" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="6.3 -12.6;-6.0 -7.3;-14.7 2.3;-14.8 10.5;-6.3 12.6;6.0 7.3;14.7 -2.3;14.8 -10.5;6.3 -12.6" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="629.4" y1="357.7" x2="627.9" y2="308.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="629.4" y1="357.7" x2="570.1" y2="361.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="629.4" y1="357.7" x2="699.0" y2="370.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="629.4" y1="357.7" x2="615.1" y2="425.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="629.4" y1="357.7" x2="679.5" y2="412.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="629.4" cy="357.7" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="629.4" y1="357.7" x2="627.9" y2="308.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="629.4" y1="357.7" x2="570.1" y2="361.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="629.4" y1="357.7" x2="699.0" y2="370.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="629.4" y1="357.7" x2="615.1" y2="425.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="629.4" y1="357.7" x2="679.5" y2="412.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="629.4" cy="357.7" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-14.1 9.5;-15.3 12.8;-7.6 8.6;4.6 -0.6;14.1 -9.5;15.3 -12.8;7.6 -8.6;-4.6 0.6;-14.1 9.5" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="768.7" y1="383.5" x2="765.7" y2="306.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="768.7" y1="383.5" x2="699.0" y2="370.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="768.7" y1="383.5" x2="821.1" y2="376.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="768.7" y1="383.5" x2="749.2" y2="425.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<line x1="768.7" y1="383.5" x2="818.9" y2="441.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="768.7" cy="383.5" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="768.7" y1="383.5" x2="765.7" y2="306.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="768.7" y1="383.5" x2="699.0" y2="370.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="768.7" y1="383.5" x2="821.1" y2="376.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="768.7" y1="383.5" x2="749.2" y2="425.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<line x1="768.7" y1="383.5" x2="818.9" y2="441.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="768.7" cy="383.5" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-13.9 9.2;-4.3 0.2;7.9 -8.9;15.4 -12.8;13.9 -9.2;4.3 -0.2;-7.9 8.9;-15.4 12.8;-13.9 9.2" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="873.6" y1="368.7" x2="887.5" y2="294.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="873.6" y1="368.7" x2="821.1" y2="376.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="873.6" y1="368.7" x2="924.7" y2="369.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="873.6" y1="368.7" x2="871.3" y2="434.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="873.6" y1="368.7" x2="925.3" y2="423.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="873.6" cy="368.7" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="873.6" y1="368.7" x2="887.5" y2="294.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="873.6" y1="368.7" x2="821.1" y2="376.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="873.6" y1="368.7" x2="924.7" y2="369.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="873.6" y1="368.7" x2="871.3" y2="434.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="873.6" y1="368.7" x2="925.3" y2="423.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="873.6" cy="368.7" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-0.3 -8.8;11.1 -12.8;16.0 -9.3;11.5 -0.4;0.3 8.8;-11.1 12.8;-16.0 9.3;-11.5 0.4;-0.3 -8.8" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="975.8" y1="370.6" x2="985.7" y2="312.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="975.8" y1="370.6" x2="924.7" y2="369.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="975.8" y1="370.6" x2="976.4" y2="424.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<circle cx="975.8" cy="370.6" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="975.8" y1="370.6" x2="985.7" y2="312.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="975.8" y1="370.6" x2="924.7" y2="369.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="975.8" y1="370.6" x2="976.4" y2="424.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<circle cx="975.8" cy="370.6" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-1.6 7.6;-12.4 -1.9;-15.9 -10.3;-10.1 -12.7;1.6 -7.6;12.4 1.9;15.9 10.3;10.1 12.7;-1.6 7.6" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="8.1" y1="506.0" x2="-5.5" y2="432.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="8.1" y1="506.0" x2="53.9" y2="437.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="8.1" y1="506.0" x2="75.4" y2="487.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="8.1" y1="506.0" x2="5.4" y2="563.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<circle cx="8.1" cy="506.0" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="8.1" y1="506.0" x2="-5.5" y2="432.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="8.1" y1="506.0" x2="53.9" y2="437.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="8.1" y1="506.0" x2="75.4" y2="487.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="8.1" y1="506.0" x2="5.4" y2="563.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<circle cx="8.1" cy="506.0" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-15.6 -12.0;-13.6 -11.6;-3.7 -4.4;8.4 5.4;15.6 12.0;13.6 11.6;3.7 4.4;-8.4 -5.4;-15.6 -12.0" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="142.7" y1="468.6" x2="121.2" y2="418.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="142.7" y1="468.6" x2="203.6" y2="416.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="142.7" y1="468.6" x2="75.4" y2="487.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="142.7" y1="468.6" x2="193.2" y2="478.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="142.7" y1="468.6" x2="142.6" y2="543.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="142.7" y1="468.6" x2="190.3" y2="532.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="142.7" cy="468.6" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="142.7" y1="468.6" x2="121.2" y2="418.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="142.7" y1="468.6" x2="203.6" y2="416.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="142.7" y1="468.6" x2="75.4" y2="487.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="142.7" y1="468.6" x2="193.2" y2="478.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="142.7" y1="468.6" x2="142.6" y2="543.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="142.7" y1="468.6" x2="190.3" y2="532.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="142.7" cy="468.6" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-10.6 -3.8;0.9 5.9;12.0 12.2;16.0 11.3;10.6 3.8;-0.9 -5.9;-12.0 -12.2;-16.0 -11.3;-10.6 -3.8" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="243.7" y1="488.9" x2="254.1" y2="426.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="243.7" y1="488.9" x2="193.2" y2="478.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="243.7" y1="488.9" x2="296.2" y2="483.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="243.7" y1="488.9" x2="193.1" y2="554.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="243.7" y1="488.9" x2="240.8" y2="542.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<circle cx="243.7" cy="488.9" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="243.7" y1="488.9" x2="254.1" y2="426.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="243.7" y1="488.9" x2="193.2" y2="478.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="243.7" y1="488.9" x2="296.2" y2="483.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="243.7" y1="488.9" x2="193.1" y2="554.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="243.7" y1="488.9" x2="240.8" y2="542.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<circle cx="243.7" cy="488.9" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="4.7 12.1;14.1 11.6;15.3 4.3;7.5 -5.5;-4.7 -12.1;-14.1 -11.6;-15.3 -4.3;-7.5 5.5;4.7 12.1" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="348.7" y1="478.0" x2="306.6" y2="420.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="348.7" y1="478.0" x2="372.2" y2="414.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="348.7" y1="478.0" x2="296.2" y2="483.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="348.7" y1="478.0" x2="415.2" y2="468.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="348.7" y1="478.0" x2="293.3" y2="536.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="348.7" y1="478.0" x2="358.0" y2="549.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="348.7" cy="478.0" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="348.7" y1="478.0" x2="306.6" y2="420.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="348.7" y1="478.0" x2="372.2" y2="414.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="348.7" y1="478.0" x2="296.2" y2="483.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="348.7" y1="478.0" x2="415.2" y2="468.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="348.7" y1="478.0" x2="293.3" y2="536.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="348.7" y1="478.0" x2="358.0" y2="549.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="348.7" cy="478.0" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="16.0 -0.1;11.3 -9.1;-0.1 -12.8;-11.4 -9.0;-16.0 0.1;-11.3 9.1;0.1 12.8;11.4 9.0;16.0 -0.1" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="481.7" y1="459.8" x2="438.7" y2="405.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="481.7" y1="459.8" x2="496.2" y2="412.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="481.7" y1="459.8" x2="415.2" y2="468.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="481.7" y1="459.8" x2="541.2" y2="477.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="481.7" y1="459.8" x2="503.5" y2="520.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="481.7" cy="459.8" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="481.7" y1="459.8" x2="438.7" y2="405.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="481.7" y1="459.8" x2="496.2" y2="412.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="481.7" y1="459.8" x2="415.2" y2="468.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="481.7" y1="459.8" x2="541.2" y2="477.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="481.7" y1="459.8" x2="503.5" y2="520.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="481.7" cy="459.8" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="4.1 -11.8;-8.0 -4.9;-15.5 4.9;-13.9 11.8;-4.1 11.8;8.0 4.9;15.5 -4.9;13.9 -11.8;4.1 -11.8" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="600.7" y1="494.2" x2="555.7" y2="429.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="600.7" y1="494.2" x2="615.1" y2="425.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="600.7" y1="494.2" x2="541.2" y2="477.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="600.7" y1="494.2" x2="665.2" y2="480.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="600.7" y1="494.2" x2="563.0" y2="537.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="600.7" y1="494.2" x2="604.0" y2="540.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<circle cx="600.7" cy="494.2" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="600.7" y1="494.2" x2="555.7" y2="429.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="600.7" y1="494.2" x2="615.1" y2="425.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="600.7" y1="494.2" x2="541.2" y2="477.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="600.7" y1="494.2" x2="665.2" y2="480.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="600.7" y1="494.2" x2="563.0" y2="537.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="600.7" y1="494.2" x2="604.0" y2="540.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<circle cx="600.7" cy="494.2" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-13.0 7.6;-15.8 12.7;-9.3 10.3;2.6 1.9;13.0 -7.6;15.8 -12.7;9.3 -10.3;-2.6 -1.9;-13.0 7.6" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="729.6" y1="466.7" x2="679.5" y2="412.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="729.6" y1="466.7" x2="749.2" y2="425.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<line x1="729.6" y1="466.7" x2="665.2" y2="480.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="729.6" y1="466.7" x2="799.3" y2="483.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="729.6" y1="466.7" x2="732.5" y2="532.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="729.6" cy="466.7" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="729.6" y1="466.7" x2="679.5" y2="412.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="729.6" y1="466.7" x2="749.2" y2="425.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<line x1="729.6" y1="466.7" x2="665.2" y2="480.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="729.6" y1="466.7" x2="799.3" y2="483.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="729.6" y1="466.7" x2="732.5" y2="532.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="729.6" cy="466.7" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-10.2 3.2;1.5 -6.5;12.3 -12.4;15.9 -11.0;10.2 -3.2;-1.5 6.5;-12.3 12.4;-15.9 11.0;-10.2 3.2" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="869.0" y1="499.6" x2="818.9" y2="441.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="869.0" y1="499.6" x2="871.3" y2="434.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="869.0" y1="499.6" x2="799.3" y2="483.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="869.0" y1="499.6" x2="923.0" y2="488.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="869.0" y1="499.6" x2="874.5" y2="543.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<line x1="869.0" y1="499.6" x2="920.9" y2="547.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="869.0" cy="499.6" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="869.0" y1="499.6" x2="818.9" y2="441.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="869.0" y1="499.6" x2="871.3" y2="434.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="869.0" y1="499.6" x2="799.3" y2="483.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="869.0" y1="499.6" x2="923.0" y2="488.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="869.0" y1="499.6" x2="874.5" y2="543.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<line x1="869.0" y1="499.6" x2="920.9" y2="547.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="869.0" cy="499.6" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="5.1 -12.2;14.3 -11.3;15.2 -3.8;7.1 6.0;-5.1 12.2;-14.3 11.3;-15.2 3.8;-7.1 -6.0;5.1 -12.2" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="976.9" y1="477.3" x2="925.3" y2="423.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="976.9" y1="477.3" x2="976.4" y2="424.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="976.9" y1="477.3" x2="923.0" y2="488.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="976.9" y1="477.3" x2="928.4" y2="532.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="976.9" y1="477.3" x2="974.8" y2="536.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="976.9" cy="477.3" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="976.9" y1="477.3" x2="925.3" y2="423.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="976.9" y1="477.3" x2="976.4" y2="424.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="976.9" y1="477.3" x2="923.0" y2="488.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="976.9" y1="477.3" x2="928.4" y2="532.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="976.9" y1="477.3" x2="974.8" y2="536.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="976.9" cy="477.3" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-6.3 2.3;-14.9 -7.3;-14.7 -12.6;-5.9 -10.5;6.3 -2.3;14.9 7.3;14.7 12.6;5.9 10.5;-6.3 2.3" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="2.7" y1="620.2" x2="5.4" y2="563.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="2.7" y1="620.2" x2="72.6" y2="619.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="2.7" cy="620.2" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="2.7" y1="620.2" x2="5.4" y2="563.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="2.7" y1="620.2" x2="72.6" y2="619.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="2.7" cy="620.2" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-15.6 -12.0;-8.3 -5.3;3.8 4.5;13.7 11.6;15.6 12.0;8.3 5.3;-3.8 -4.5;-13.7 -11.6;-15.6 -12.0" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="142.6" y1="619.2" x2="142.6" y2="543.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="142.6" y1="619.2" x2="193.1" y2="554.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="142.6" y1="619.2" x2="72.6" y2="619.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="142.6" y1="619.2" x2="190.2" y2="607.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<circle cx="142.6" cy="619.2" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="142.6" y1="619.2" x2="142.6" y2="543.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="142.6" y1="619.2" x2="193.1" y2="554.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="142.6" y1="619.2" x2="72.6" y2="619.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="142.6" y1="619.2" x2="190.2" y2="607.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<circle cx="142.6" cy="619.2" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-7.0 1.4;5.3 10.0;14.4 12.7;15.1 8.0;7.0 -1.4;-5.3 -10.0;-14.4 -12.7;-15.1 -8.0;-7.0 1.4" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="237.8" y1="595.5" x2="190.3" y2="532.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="237.8" y1="595.5" x2="240.8" y2="542.2" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.08"/>
-<line x1="237.8" y1="595.5" x2="293.3" y2="536.8" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="237.8" y1="595.5" x2="190.2" y2="607.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.09"/>
-<line x1="237.8" y1="595.5" x2="302.5" y2="607.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="237.8" cy="595.5" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="237.8" y1="595.5" x2="190.3" y2="532.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="237.8" y1="595.5" x2="240.8" y2="542.2" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.08"/>
+<line x1="237.8" y1="595.5" x2="293.3" y2="536.8" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="237.8" y1="595.5" x2="190.2" y2="607.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.09"/>
+<line x1="237.8" y1="595.5" x2="302.5" y2="607.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="237.8" cy="595.5" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="12.8 10.5;15.8 2.3;9.6 -7.3;-2.3 -12.6;-12.8 -10.5;-15.8 -2.3;-9.6 7.3;2.3 12.6;12.8 10.5" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="367.2" y1="620.3" x2="358.0" y2="549.1" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="367.2" y1="620.3" x2="302.5" y2="607.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="367.2" y1="620.3" x2="446.2" y2="600.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="367.2" cy="620.3" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="367.2" y1="620.3" x2="358.0" y2="549.1" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="367.2" y1="620.3" x2="302.5" y2="607.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="367.2" y1="620.3" x2="446.2" y2="600.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="367.2" cy="620.3" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="10.9 -12.1;-0.6 -11.5;-11.7 -4.2;-16.0 5.6;-10.9 12.1;0.6 11.5;11.7 4.2;16.0 -5.6;10.9 -12.1" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="525.2" y1="581.6" x2="503.5" y2="520.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="525.2" y1="581.6" x2="563.0" y2="537.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.07"/>
-<line x1="525.2" y1="581.6" x2="446.2" y2="600.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="525.2" y1="581.6" x2="566.2" y2="583.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.11"/>
-<circle cx="525.2" cy="581.6" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="525.2" y1="581.6" x2="503.5" y2="520.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="525.2" y1="581.6" x2="563.0" y2="537.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.07"/>
+<line x1="525.2" y1="581.6" x2="446.2" y2="600.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="525.2" y1="581.6" x2="566.2" y2="583.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.11"/>
+<circle cx="525.2" cy="581.6" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-1.4 -7.7;-12.3 1.7;-15.9 10.2;-10.2 12.7;1.4 7.7;12.3 -1.7;15.9 -10.2;10.2 -12.7;-1.4 -7.7" dur="7.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="607.2" y1="585.8" x2="604.0" y2="540.0" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<line x1="607.2" y1="585.8" x2="566.2" y2="583.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.11"/>
-<line x1="607.2" y1="585.8" x2="671.3" y2="592.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="607.2" cy="585.8" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="607.2" y1="585.8" x2="604.0" y2="540.0" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<line x1="607.2" y1="585.8" x2="566.2" y2="583.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.11"/>
+<line x1="607.2" y1="585.8" x2="671.3" y2="592.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="607.2" cy="585.8" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-15.8 12.5;-12.9 10.8;-2.4 2.9;9.5 -6.8;15.8 -12.5;12.9 -10.8;2.4 -2.9;-9.5 6.8;-15.8 12.5" dur="7.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="735.3" y1="599.2" x2="732.5" y2="532.9" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="735.3" y1="599.2" x2="671.3" y2="592.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="735.3" y1="599.2" x2="807.6" y2="593.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<circle cx="735.3" cy="599.2" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="735.3" y1="599.2" x2="732.5" y2="532.9" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="735.3" y1="599.2" x2="671.3" y2="592.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="735.3" y1="599.2" x2="807.6" y2="593.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<circle cx="735.3" cy="599.2" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="-4.8 -4.1;7.4 -11.5;15.3 -12.1;14.2 -5.6;4.8 4.1;-7.4 11.5;-15.3 12.1;-14.2 5.6;-4.8 -4.1" dur="8.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="879.9" y1="587.5" x2="874.5" y2="543.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<line x1="879.9" y1="587.5" x2="928.4" y2="532.4" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="879.9" y1="587.5" x2="807.6" y2="593.3" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="879.9" y1="587.5" x2="926.3" y2="591.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<circle cx="879.9" cy="587.5" r="3.6" fill="#f0c25b" fill-opacity="0.85"/>
+<line x1="879.9" y1="587.5" x2="874.5" y2="543.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<line x1="879.9" y1="587.5" x2="928.4" y2="532.4" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="879.9" y1="587.5" x2="807.6" y2="593.3" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="879.9" y1="587.5" x2="926.3" y2="591.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<circle cx="879.9" cy="587.5" r="3.6" fill="#8fd0f7" fill-opacity="0.85"/>
 </g>
 <g>
 <animateTransform attributeName="transform" type="translate" values="9.7 -12.6;15.9 -7.1;12.7 2.5;2.1 10.6;-9.7 12.6;-15.9 7.1;-12.7 -2.5;-2.1 -10.6;9.7 -12.6" dur="8.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
-<line x1="972.7" y1="595.7" x2="920.9" y2="547.7" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="972.7" y1="595.7" x2="974.8" y2="536.5" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.06"/>
-<line x1="972.7" y1="595.7" x2="926.3" y2="591.6" stroke="#d4a23a" stroke-width="1" stroke-opacity="0.10"/>
-<circle cx="972.7" cy="595.7" r="2.6" fill="#d4a23a" fill-opacity="0.55"/>
+<line x1="972.7" y1="595.7" x2="920.9" y2="547.7" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="972.7" y1="595.7" x2="974.8" y2="536.5" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.06"/>
+<line x1="972.7" y1="595.7" x2="926.3" y2="591.6" stroke="#5ab0e6" stroke-width="1" stroke-opacity="0.10"/>
+<circle cx="972.7" cy="595.7" r="2.6" fill="#5ab0e6" fill-opacity="0.55"/>
 </g>
 </svg>

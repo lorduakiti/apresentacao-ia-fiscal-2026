@@ -5,9 +5,16 @@
 
   // build dots
   const dotsWrap = document.getElementById('dots');
-  slides.forEach((_,i)=>{
+  slides.forEach((s,i)=>{
     const d=document.createElement('i');
     d.addEventListener('click',()=>goTo(i));
+    // tooltip: número + título do slide (h1/h2; senão o kicker)
+    const h = s.querySelector('h1,h2');
+    let t = (h ? h.innerHTML : (s.querySelector('.kicker') ? s.querySelector('.kicker').textContent : ''))
+              .replace(/<br\s*\/?>/gi,' ').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
+    if(!t) t = 'Slide '+(i+1);
+    d.dataset.tip = String(i+1).padStart(2,'0')+' · '+t;
+    d.setAttribute('aria-label', d.dataset.tip);
     dotsWrap.appendChild(d);
   });
   const dots = Array.from(dotsWrap.children);
@@ -67,6 +74,7 @@
     if(i<0||i>=total||i===cur) return;
     cur=i;
     resetReveals();
+    resetClouds();
     render();
   }
 
@@ -101,6 +109,31 @@
     return false;
   }
 
+  // ----- NUVEM DE PALAVRAS (slide 13): 1º clique mostra CONTEXTO; depois os níveis, 1,5s cada -----
+  function startCloud(cloud){
+    if(cloud.dataset.anim==='1') return;
+    cloud.dataset.anim='1';
+    const center = cloud.querySelector('.cloud-center');
+    if(center) center.classList.add('show');
+    const levels = Array.from(cloud.querySelectorAll('.cloud-level'))
+      .sort((a,b)=>(+a.dataset.level)-(+b.dataset.level));
+    cloud._timers = levels.map((lv,i)=> setTimeout(()=>lv.classList.add('show'), (i+1)*1500));
+  }
+  function resetClouds(){
+    document.querySelectorAll('.wordcloud').forEach(c=>{
+      if(c._timers){ c._timers.forEach(clearTimeout); c._timers=[]; }
+      c.dataset.anim='';
+      const ce=c.querySelector('.cloud-center'); if(ce) ce.classList.remove('show');
+      c.querySelectorAll('.cloud-level').forEach(l=>l.classList.remove('show'));
+    });
+  }
+  // clique/toque: se o slide tem nuvem de palavras, dispara a sequência; senão, revela normalmente
+  function tapAction(){
+    const cloud = slides[cur].querySelector('.wordcloud');
+    if(cloud){ startCloud(cloud); return; }
+    revealNext();
+  }
+
   // tab clicks switch demo stages directly
   document.querySelectorAll('.demo-tab').forEach(btn=>{
     btn.addEventListener('click',e=>{
@@ -108,6 +141,58 @@
       const slide = btn.closest('.slide');
       setStage(slide, parseInt(btn.dataset.stage,10));
     });
+  });
+
+  // accordion: clicar no título revela o texto da demo (abre um, fecha os demais)
+  document.querySelectorAll('.acc-head').forEach(btn=>{
+    btn.addEventListener('click',e=>{
+      e.stopPropagation();
+      const item = btn.closest('.acc-item');
+      const acc = btn.closest('.accordion');
+      const wasActive = item.classList.contains('active');
+      acc.querySelectorAll('.acc-item').forEach(i=>i.classList.remove('active'));
+      if(!wasActive) item.classList.add('active');
+    });
+  });
+
+  // ----- CARROSSEL de imagens (avança no clique do mouse; sem autoplay) -----
+  document.querySelectorAll('[data-carousel]').forEach(car=>{
+    const track   = car.querySelector('.carousel-track');
+    const items   = Array.from(car.querySelectorAll('.carousel-item'));
+    const dotsBox = car.querySelector('.carousel-dots');
+    if(!track || !items.length) return;
+    let idx = 0;
+    items.forEach((_,i)=>{
+      const d = document.createElement('i');
+      d.addEventListener('click', e=>{ e.stopPropagation(); go(i); });
+      if(dotsBox) dotsBox.appendChild(d);
+    });
+    const dots = dotsBox ? Array.from(dotsBox.children) : [];
+    function go(i){
+      idx = (i % items.length + items.length) % items.length;
+      track.style.transform = 'translateX(' + (-idx*100) + '%)';
+      dots.forEach((d,j)=>d.classList.toggle('on', j===idx));
+    }
+    function next(){ go(idx+1); }
+    function prev(){ go(idx-1); }
+    const nb = car.querySelector('.carousel-btn.next');
+    const pb = car.querySelector('.carousel-btn.prev');
+    if(nb) nb.addEventListener('click', e=>{ e.stopPropagation(); next(); });
+    if(pb) pb.addEventListener('click', e=>{ e.stopPropagation(); prev(); });
+    // clique do mouse sobre a imagem avança o carrossel
+    let swiped=false;
+    car.addEventListener('click', e=>{
+      if(e.target.closest('.carousel-btn') || e.target.closest('.carousel-dots')) return;
+      if(swiped){ swiped=false; return; }
+      next();
+    });
+    // swipe (mobile) troca a imagem, não o slide
+    let sx=0, sActive=false;
+    car.addEventListener('touchstart', e=>{ sx=e.changedTouches[0].clientX; sActive=true; swiped=false; }, {passive:true});
+    car.addEventListener('touchend', e=>{ if(!sActive) return; sActive=false;
+      const dx=e.changedTouches[0].clientX - sx;
+      if(Math.abs(dx)>40){ swiped=true; (dx<0?next:prev)(); } });
+    go(0);
   });
 
   // keyboard: arrows navigate (stage-aware)
@@ -126,8 +211,8 @@
   let suppressClick = false;
   document.addEventListener('click',e=>{
     if(suppressClick){ suppressClick=false; return; }
-    if(e.target.closest('.dots')||e.target.closest('.demo-tab')||e.target.closest('iframe')||e.target.closest('.frame-wrap')||e.target.closest('a')) return;
-    revealNext();
+    if(e.target.closest('.dots')||e.target.closest('.demo-tab')||e.target.closest('.accordion')||e.target.closest('.carousel')||e.target.closest('iframe')||e.target.closest('.frame-wrap')||e.target.closest('a')) return;
+    tapAction();
   });
 
   // ---- TOUCH / SWIPE (mobile) ----
@@ -141,7 +226,7 @@
 
   document.addEventListener('touchstart',e=>{
     // ignora gestos que começam sobre conteúdo interativo
-    if(e.target.closest('.dots')||e.target.closest('.demo-tab')||e.target.closest('iframe')||e.target.closest('.frame-wrap')||e.target.closest('a')){
+    if(e.target.closest('.dots')||e.target.closest('.demo-tab')||e.target.closest('.accordion')||e.target.closest('.carousel')||e.target.closest('iframe')||e.target.closest('.frame-wrap')||e.target.closest('a')){
       tValid=false; return;
     }
     const t=e.changedTouches[0];
@@ -169,7 +254,7 @@
     // TAP: quase sem movimento → revela a próxima animação (igual ao clique no desktop)
     if(absX<=TAP_MAX && absY<=TAP_MAX){
       suppressClick=true;           // evita que o clique fantasma revele de novo
-      revealNext();
+      tapAction();
     }
   }, {passive:true});
 
