@@ -39,6 +39,7 @@
     slideId.textContent = String(cur+1).padStart(2,'0')+' / '+total;
     if(navPrev) navPrev.classList.toggle('hidden', cur===0);
     if(navNext) navNext.classList.toggle('hidden', cur===total-1);
+    updateCue(slides[cur]);
     loadStageFrame(slides[cur]);
   }
 
@@ -113,8 +114,23 @@
   function revealNext(){
     const active = slides[cur];
     const hidden = Array.from(active.querySelectorAll('.reveal:not(.shown)'));
-    if(hidden.length){ hidden[0].classList.add('shown'); return true; }
+    if(hidden.length){ hidden[0].classList.add('shown'); updateCue(active); return true; }
     return false;
+  }
+
+  // a bolinha pulsante para de pulsar quando não há mais animação a revelar
+  function updateCue(slide){
+    if(!slide) return;
+    const cue = slide.querySelector('.clickcue');
+    if(!cue) return;
+    const cloud = slide.querySelector('.wordcloud');
+    let more;
+    if(cloud){
+      more = cloud.dataset.anim!=='1' || cloud.querySelectorAll('.cloud-level:not(.show)').length>0;
+    } else {
+      more = slide.querySelectorAll('.reveal:not(.shown)').length>0;
+    }
+    cue.classList.toggle('done', !more);
   }
 
   // ----- NUVEM DE PALAVRAS (slide 13): 1º clique mostra CONTEXTO; depois os níveis, 1,5s cada -----
@@ -125,7 +141,8 @@
     if(center) center.classList.add('show');
     const levels = Array.from(cloud.querySelectorAll('.cloud-level'))
       .sort((a,b)=>(+a.dataset.level)-(+b.dataset.level));
-    cloud._timers = levels.map((lv,i)=> setTimeout(()=>lv.classList.add('show'), (i+1)*1500));
+    const cloudSlide = cloud.closest('.slide');
+    cloud._timers = levels.map((lv,i)=> setTimeout(()=>{ lv.classList.add('show'); updateCue(cloudSlide); }, (i+1)*1500));
   }
   function resetClouds(){
     document.querySelectorAll('.wordcloud').forEach(c=>{
