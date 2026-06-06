@@ -262,12 +262,12 @@
 
   /* ===== links externos / novas imagens / carrossel notícias / nav / modais ===== */
   .img-extlink{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;color:var(--gold);
-    text-decoration:none;border-bottom:1px solid rgba(90,176,230,.4);transition:color .2s,border-color .2s}
+    text-decoration:none;border-bottom:1px solid rgba(90,176,230,.4);transition:color .2s,border-color .2s;cursor:pointer}
   .img-extlink:hover{color:var(--gold-bright);border-color:var(--gold-bright)}
 
   #s8 .concept svg.responde{width:min(46vw,580px)}
 
-  #s9 .art img{width:100%;max-width:520px;height:auto;border-radius:10px;border:1px solid var(--line);
+  #s9 .art img,#s-imprecisao .art img{width:100%;max-width:520px;height:auto;border-radius:10px;border:1px solid var(--line);
     box-shadow:0 22px 60px rgba(0,0,0,.4)}
   #s18 .illus{height:auto;border:0;box-shadow:none}
   #s18 .illus img{width:100%;max-width:420px;height:auto;border-radius:12px;display:block}

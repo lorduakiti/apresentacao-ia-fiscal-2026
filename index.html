@@ -136,11 +136,33 @@
     <div class="concept">
       <div class="txtcol">
         <h2>O que a máquina responde?</h2>
-        <p class="lead">Por décadas o computador só respondia ao fácil: <em class="hl">quem, quando, onde</em>. Bastava consultar um banco. O salto da IA está no difícil — o <em class="hl">porquê</em> e o <em class="hl">como</em>.</p>
+        <p class="lead">Por décadas o computador só respondia perguntas fáceis como: <em class="hl">o que, quem, quando, onde e quanto</em>. Bastava consultar um banco de dados. O salto da IA está no difícil — o <em class="hl">porquê</em> e o <em class="hl">como</em>.</p>
       </div>
       <div class="art">
         <svg class="responde" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" font-family="Archivo, Arial, sans-serif" text-anchor="middle">
+          <defs>
+            <marker id="ah-pc" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#9098a0"/></marker>
+            <marker id="ah-ia" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#5ab0e6"/></marker>
+          </defs>
           <text x="320" y="36" fill="#8fd0f7" font-size="26" font-weight="700" letter-spacing="2">5W2H</text>
+          <!-- setas do PC (cinza) → What, Who, When, Where, How much -->
+          <g stroke="#9098a0" stroke-width="1.4" opacity=".8">
+            <line x1="138" y1="250" x2="210" y2="108" marker-end="url(#ah-pc)"/>
+            <line x1="138" y1="250" x2="210" y2="200" marker-end="url(#ah-pc)"/>
+            <line x1="138" y1="250" x2="210" y2="246" marker-end="url(#ah-pc)"/>
+            <line x1="138" y1="250" x2="210" y2="292" marker-end="url(#ah-pc)"/>
+            <line x1="138" y1="250" x2="210" y2="384" marker-end="url(#ah-pc)"/>
+          </g>
+          <!-- setas da IA (azul) → todos os 7 itens -->
+          <g stroke="#5ab0e6" stroke-width="1.4" opacity=".8">
+            <line x1="502" y1="250" x2="430" y2="108" marker-end="url(#ah-ia)"/>
+            <line x1="502" y1="250" x2="430" y2="154" marker-end="url(#ah-ia)"/>
+            <line x1="502" y1="250" x2="430" y2="200" marker-end="url(#ah-ia)"/>
+            <line x1="502" y1="250" x2="430" y2="246" marker-end="url(#ah-ia)"/>
+            <line x1="502" y1="250" x2="430" y2="292" marker-end="url(#ah-ia)"/>
+            <line x1="502" y1="250" x2="430" y2="338" marker-end="url(#ah-ia)"/>
+            <line x1="502" y1="250" x2="430" y2="384" marker-end="url(#ah-ia)"/>
+          </g>
           <circle cx="78" cy="250" r="58" fill="#9098a0" stroke="#c4c9cf" stroke-width="2"/>
           <text x="78" y="259" fill="#ffffff" font-size="26" font-weight="700">PC</text>
           <circle cx="562" cy="250" r="58" fill="#8fd0f7" stroke="#5ab0e6" stroke-width="2"/>
@@ -159,13 +181,26 @@
     </div>
   </section>
 
+<!-- ============ SLIDE (novo) — A IMPRECISÃO DA IA ============ -->
+  <section class="slide" id="s-imprecisao">
+    <div class="kicker"><div class="clickcue"><span class="pulse"></span></div>Errar é humano?</div>
+    <div class="concept">
+      <div class="txtcol">
+        <h2>A imprecisão da IA</h2>
+        <p class="lead reveal">Hoje a IA <em class="hl">alucina, delira, esquece</em> e até pode inventar um artigo de lei com cara de verdade, afirmando categoricamente que está certa mesmo estando errada.<br>Já os humanos além de poderem cometer <em class="hl">os mesmos erros</em> ainda se cansam, se distraem, tem vieses e não conseguem ler e lembrar de milhões de registros.</p>
+      </div>
+      <div class="art">
+        <img class="reveal" src="imgs/calculadora_x_dados.png" alt="Calculadora e dados — precisão e imprecisão" />
+      </div>
+    </div>
+  </section>
+
 <!-- ============ SLIDE 9 — LIMITES ============ -->
   <section class="slide" id="s9">
     <div class="kicker"><div class="clickcue"><span class="pulse"></span></div>Limites — de máquinas e de humanos</div>
     <div class="concept">
       <div class="txtcol">
         <h2>IA x Humanos</h2>
-        <p class="lead reveal">Hoje a IA <em class="hl">alucina, delira, esquece</em> e até pode inventar um artigo de lei com cara de verdade, afirmando categoricamente que está certa mesmo estando errada.<br>Já os humanos além de poderem cometer <em class="hl">os mesmos erros</em> ainda se cansam, se distraem, tem vieses e não conseguem ler e lembrar de milhões de registros.</p>
         <p class="lead reveal">Então a solução é não confiar cegamente em nenhum dos dois. Precisamos planejar uma forma de trabalho conjunto para que um corrija o outro: a máquina amplia o alcance e velocidade, o humano valida o juízo e veracidade.<br>Os erros de um não são os erros do outro.</p>
       </div>
       <div class="art">
@@ -610,7 +645,7 @@
       <div class="art">
         <div class="map-block reveal">
           <img src="imgs/landscape_map_ia-ml-data_mad_2025.png" alt="MAD Landscape 2025 — mapa de empresas de IA, Machine Learning e Dados" />
-          <a class="img-extlink" href="https://mad.firstmark.com" target="_blank" rel="noopener">Mapa interativo do mercado de IA — mad.firstmark.com</a>
+          <span class="img-extlink" modal-link="https://mad.firstmark.com" role="button" tabindex="0">Mapa interativo do mercado de IA — mad.firstmark.com</span>
         </div>
       </div>
     </div>
@@ -619,7 +654,7 @@
 <!-- ============ SLIDE 16 — ROADMAP / POC ============ -->
   <section class="slide" id="s16">
     <div class="kicker"><div class="clickcue"><span class="pulse"></span></div>Da POC à escala</div>
-    <h2>Comece pequeno<br>Prove Depois escale</h2>
+    <h2>Comece pequeno<br>teste rápido, valide tudo, depois escale</h2>
     <p class="lead">A <strong>POC</strong> (Prova de Conceito) deve ser o teste de bancada antes de pensar em comprar a fábrica.<br>Aplicar IA em um caso real, de alto valor e baixo risco, como a triagem de inadimplência de ISS, pode ser o segredo do sucesso.<br><br>Principais erros dos projetos de IA:</p>
     <div class="alert-grid reveal">
       <div class="alert"><span class="num">×1</span><span class="txt">Querer fazer tudo de uma vez</span></div>
@@ -645,7 +680,7 @@
             </svg>
           </span>
         </div>
-        <p class="lead reveal">A IA cobra por <em class="hl">token</em> — o "selo postal" da era da IA. Um token é um pedaço de texto, cerca de <strong>4 letras</strong>, ou <strong>¾ de palavra</strong>. Você paga pelo que envia e pelo que recebe.</p>
+        <p class="lead reveal">A IA cobra por <em class="hl">token</em> — o "pedágio" da era da IA. Um token é um pedaço de texto, cerca de <strong>4 letras</strong>, ou <strong>¾ de palavra</strong>. Você paga pelo que envia e pelo que recebe.</p>
         <p class="lead reveal">Duas curvas se cruzaram: o <strong>preço por token despencou</strong> em ordens de grandeza, enquanto a <strong>capacidade disparou</strong> — modelos que leem centenas de páginas de uma vez. Tarefas inviáveis há 3 anos hoje custam <em class="hl">centavos</em>. Como o armazenamento e a energia solar: a barreira deixou de ser o custo.</p>
       </div>
       <div class="art">
