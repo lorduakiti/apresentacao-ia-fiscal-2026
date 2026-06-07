@@ -32,7 +32,7 @@ Antes de cada texto vem o **tipo** do elemento.
 
 ---
 
-## Slide 3 — A evolução do trabalho · `#s-evolucao`
+## Slide 3 — A evolução do trabalho · `#s3`
 
 - **Pré-título:** As mudanças do mundo
 - **Título (h2):** A evolução do trabalho
@@ -62,7 +62,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 5 — Os dados crescem · `#s3`
+## Slide 5 — Os dados crescem · `#s5`
 
 - **Pré-título:** O descompasso
 - **Título (h2):** Os dados crescem · A equipe, não
@@ -72,7 +72,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 6 — O oceano em que vocês nadam · `#s5`
+## Slide 6 — O oceano em que vocês nadam · `#s6`
 
 - **Pré-título:** A complexidade brasileira
 - **Título (h2):** O oceano em que vocês nadam
@@ -93,7 +93,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 8 — Não é futuro, é notícia de jornal · `#s6`
+## Slide 8 — Não é futuro, é notícia de jornal · `#s8`
 
 - **Pré-título:** Quem já está nessa estrada
 - **Título (h2):** Não é futuro · É notícia de jornal
@@ -115,7 +115,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 9 — O que a máquina responde? · `#s8`
+## Slide 9 — O que a máquina responde? · `#s9`
 
 - **Pré-título:** O que a IA já faz
 - **Título (h2):** O que a máquina responde?
@@ -134,7 +134,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 10 — A imprecisão da IA · `#s-imprecisao`
+## Slide 10 — A imprecisão da IA · `#s10`
 
 - **Pré-título:** Errar é humano?
 - **Título (h2):** A imprecisão da IA
@@ -143,7 +143,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 11 — IA x Humanos · `#s9`
+## Slide 11 — IA x Humanos · `#s11`
 
 - **Pré-título:** Limites — de máquinas e de humanos
 - **Título (h2):** IA x Humanos
@@ -152,7 +152,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 12 — Eficiência não é eficácia · `#s11`
+## Slide 12 — Eficiência não é eficácia · `#s12`
 
 - **Pré-título:** A distinção que muda tudo
 - **Título (h2):** Eficiência não é eficácia
@@ -164,7 +164,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 13 — Governança não é freio · `#s12`
+## Slide 13 — Governança não é freio · `#s13`
 
 - **Pré-título:** Dados, governança & LGPD
 - **Título (h2):** Governança não é freio · É a condição
@@ -174,7 +174,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 14 — A camada ontológica · `#s13`
+## Slide 14 — A camada ontológica · `#s14`
 
 - **Pré-título:** A fundação invisível
 - **Título (h2):** A camada ontológica
@@ -189,7 +189,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 15 — 4 Níveis de uso · `#s10`
+## Slide 15 — 4 Níveis de uso · `#s15`
 
 - **Pré-título:** Níveis de maturidade
 - **Título (h2):** 4 Níveis de uso
@@ -202,7 +202,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 16 — Do chat ao enxame de agentes (demonstrações) · `#s14`
+## Slide 16 — Do chat ao enxame de agentes (demonstrações) · `#s16`
 
 - **Pré-título:** Demonstrações ao vivo
 - **Título (h2):** Do chat ao enxame de agentes
@@ -216,7 +216,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 17 — IA Generativa + Machine Learning · `#s15`
+## Slide 17 — IA Generativa + Machine Learning · `#s17`
 
 - **Pré-título:** Implementação otimizada e precisa
 - **Título (h2):** IA Generativa + Machine Learning
@@ -229,7 +229,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 18 — O mercado mundial de IA · `#s-tipos-ia`
+## Slide 18 — O mercado mundial de IA · `#s18`
 
 - **Pré-título:** IA no mundo
 - **Título (h2):** O mercado mundial de IA
@@ -242,7 +242,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 19 — Comece pequeno (POC) · `#s16`
+## Slide 19 — Comece pequeno (POC) · `#s19`
 
 - **Pré-título:** Da POC à escala
 - **Título (h2):** Comece pequeno
@@ -255,7 +255,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 20 — Mais barato e melhor (custos) · `#s17`
+## Slide 20 — Mais barato e melhor (custos) · `#s20`
 
 - **Pré-título:** Os custos da IA
 - **Título (h2):** Mais barato · E melhor
@@ -268,7 +268,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 21 — De novidade a infraestrutura · `#s18`
+## Slide 21 — De novidade a infraestrutura · `#s21`
 
 - **Pré-título:** Uma nova revolução
 - **Título (h2):** De novidade a infraestrutura
@@ -281,14 +281,14 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 ---
 
-## Slide 22 — Frase de impacto (síntese) · `#s19`
+## Slide 22 — Frase de impacto (síntese) · `#s22`
 
 - **Pré-título:** A síntese
 - **Citação:** "A **Inteligência Artificial** não substitui o **fiscal**, ela *amplia seu alcance*, *fundamenta seu juízo* e *devolve o tempo* que o trabalho burocrático tomou."
 
 ---
 
-## Slide 23 — Perguntas? / Contato · `#s20`
+## Slide 23 — Perguntas? / Contato · `#s23`
 
 - **Pré-título:** Obrigado
 - **Título (h1):** Perguntas?

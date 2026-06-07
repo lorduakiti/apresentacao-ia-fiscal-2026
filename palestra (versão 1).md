@@ -3,7 +3,7 @@
 
 **Orientação geral:** Fale mais devagar do que o instinto manda. Faça pausas depois das frases de impacto. Olhe para uma pessoa de cada vez. Nunca peça desculpas, nunca hesite, sempre afirme. Se uma demo travar, sorria, diga "a tecnologia também tem seus dias" e siga em frente — a plateia perdoa a falha técnica, não o pânico. Os gatilhos psicológicos estão marcados [entre colchetes].
 
-> **Nota de ordem:** Esta versão segue a nova sequência de 20 slides. O "Papel do fiscal" subiu para logo após a prova social; "Limites" passou a vir junto da escada de conceitos; "Governança" acompanha "Eficiência"; e as quatro demos viraram uma só demonstração encadeada de seis etapas.
+> **Nota de ordem:** Esta versão segue a sequência de 23 slides do deck atual. Em relação à v1 de 20 slides, foram acrescentados três: "A evolução do trabalho" (slide 3), "A imprecisão da IA" (slide 10) e "O mercado mundial de IA" (slide 18). O "Papel do fiscal" vem logo antes da prova social; "Limites" segue a escada de conceitos; "Governança" acompanha "Eficiência"; e as quatro demos viraram uma só demonstração encadeada de seis etapas.
 
 ---
 
@@ -27,13 +27,13 @@ Meu nome é [nome], e nos próximos quinze minutos nós vamos percorrer juntos o
 
 ---
 
-### SLIDE 3 — O cenário das Finanças Públicas Municipais
+### SLIDE 3 — A evolução do trabalho
 
-*[Gatilho: nomear a dor.]*
+*[Gatilho: a história que tranquiliza. Mostra que o medo do novo já aconteceu antes — e sempre terminou bem.]*
 
-"Vamos olhar de frente para a realidade de vocês. O volume de informação cresce todo ano: mais notas fiscais de serviço, mais inscrições em dívida ativa, mais processos. Mas me digam uma coisa, com sinceridade: o quadro de fiscais cresceu na mesma proporção? Não cresceu. E ao mesmo tempo a cobrança por transparência aumentou, com a Lei de Acesso à Informação e a Lei de Responsabilidade Fiscal vigiando cada passo.
+"Antes de qualquer conceito técnico, eu quero que vocês olhem para estas imagens. Há algumas décadas, este era o trabalho: uma datilógrafa, hora após hora, diante da máquina de escrever. Veio o computador, e muita gente teve medo de perder o emprego. Não perdeu — virou analista, e fez muito mais. Hoje, a cena é a profissional trabalhando lado a lado com a Inteligência Artificial.
 
-O resultado é um descompasso. Uma quantidade de dados que nenhum ser humano consegue varrer manualmente, sendo analisada, ainda hoje, contribuinte por contribuinte. E aqui está minha primeira afirmação firme: a Inteligência Artificial é a resposta exata para esse descompasso. Ela não substitui o poder de polícia de vocês. Ela amplia o alcance dos olhos de vocês."
+Reparem no padrão, porque ele se repete há um século: a ferramenta muda, assusta no começo, e termina elevando quem trabalha. Ela tira o peso braçal e devolve espaço para o que só o humano faz. A IA não é uma ruptura nessa história. É o próximo capítulo dela. E vocês já viveram capítulos assim antes."
 
 ---
 
@@ -47,7 +47,17 @@ Percebam o movimento. A cada geração, não fomos nós que ficamos mais intelig
 
 ---
 
-### SLIDE 5 — A complexidade da legislação tributária brasileira
+### SLIDE 5 — O cenário das Finanças Públicas Municipais
+
+*[Gatilho: nomear a dor.]*
+
+"Vamos olhar de frente para a realidade de vocês. O volume de informação cresce todo ano: mais notas fiscais de serviço, mais inscrições em dívida ativa, mais processos. Mas me digam uma coisa, com sinceridade: o quadro de fiscais cresceu na mesma proporção? Não cresceu. E ao mesmo tempo a cobrança por transparência aumentou, com a Lei de Acesso à Informação e a Lei de Responsabilidade Fiscal vigiando cada passo.
+
+O resultado é um descompasso. Uma quantidade de dados que nenhum ser humano consegue varrer manualmente, sendo analisada, ainda hoje, contribuinte por contribuinte. E aqui está minha primeira afirmação firme: a Inteligência Artificial é a resposta exata para esse descompasso. Ela não substitui o poder de polícia de vocês. Ela amplia o alcance dos olhos de vocês."
+
+---
+
+### SLIDE 6 — A complexidade da legislação tributária brasileira
 
 *[Gatilho: o número que choca. Diga os números devagar.]*
 
@@ -57,7 +67,19 @@ Agora pensem: este é o oceano em que vocês nadam todo dia. O Código Tributár
 
 ---
 
-### SLIDE 6 — Quem já está nessa estrada
+### SLIDE 7 — O papel do fiscal
+
+*[Gatilho: afirmação de princípio. Vindo logo após o retrato da complexidade e ANTES da prova social, este slide fixa cedo a regra que tranquiliza a sala. NÃO é um fechamento — é uma âncora plantada no início, e ainda prepara a prova social que vem na sequência.]*
+
+"E diante de toda essa complexidade, antes de entrarmos no como, eu preciso cravar uma regra que vale para tudo o que vem a seguir. As instituições sérias que já adotam essa tecnologia — e vocês vão ver várias delas em instantes — não demitiram o seu corpo técnico para colocar uma máquina no lugar. Elas fizeram o contrário: deram à equipe uma ferramenta. Então guardem isto desde já: a Inteligência Artificial é um copiloto, nunca o piloto. Ela tira de vocês o trabalho que ninguém gosta de fazer, o mecânico, o repetitivo, e devolve o que define a profissão de vocês: a análise, a interpretação da norma, o juízo.
+
+A decisão de autuar e o lançamento do crédito tributário são exercício do poder de polícia. E o poder de polícia, por lei e por natureza, é indelegável. A máquina não tem, e não pode ter, essa competência. Ela é de vocês. E vai continuar sendo. Guardem essa regra, porque eu vou voltar a ela no fim."
+
+*[Frase-âncora plantada: "copiloto, nunca piloto" e "indelegável". Voltam no encerramento.]*
+
+---
+
+### SLIDE 8 — Quem já está nessa estrada
 
 *[Gatilho: PROVA SOCIAL. A plateia precisa sair daqui pensando "os grandes já fazem, falta só nós".]*
 
@@ -67,19 +89,7 @@ Olhem para essas manchetes. Não são promessas, são notícias de jornal. E qua
 
 ---
 
-### SLIDE 7 — O papel do fiscal
-
-*[Gatilho: afirmação de princípio. Vindo logo após a prova social, este slide fixa a regra que tranquiliza a sala antes de qualquer conceito técnico. NÃO é mais um fechamento — é uma âncora plantada cedo.]*
-
-"E antes de entrarmos no como, eu preciso cravar uma regra que vale para tudo o que vem a seguir. Esses bancos, essas instituições que acabei de citar, nenhum deles demitiu o seu corpo técnico para colocar uma máquina no lugar. Eles fizeram o contrário: deram à equipe uma ferramenta. Então guardem isto desde já: a Inteligência Artificial é um copiloto, nunca o piloto. Ela tira de vocês o trabalho que ninguém gosta de fazer, o mecânico, o repetitivo, e devolve o que define a profissão de vocês: a análise, a interpretação da norma, o juízo.
-
-A decisão de autuar e o lançamento do crédito tributário são exercício do poder de polícia. E o poder de polícia, por lei e por natureza, é indelegável. A máquina não tem, e não pode ter, essa competência. Ela é de vocês. E vai continuar sendo. Guardem essa regra, porque eu vou voltar a ela no fim."
-
-*[Frase-âncora plantada: "copiloto, nunca piloto" e "indelegável". Voltam no encerramento.]*
-
----
-
-### SLIDE 8 — O que a IA já faz hoje: o 5W2H
+### SLIDE 9 — O que a IA já faz hoje: o 5W2H
 
 *[Gatilho: o familiar reconfortante.]*
 
@@ -89,27 +99,27 @@ Ou seja, ela não apenas encontra o contribuinte inadimplente. Ela explica por q
 
 ---
 
-### SLIDE 9 — Limites de máquinas e de humanos
+### SLIDE 10 — A imprecisão da IA
 
-*[Gatilho: vulnerabilidade que fortalece. Vindo logo após "o que a IA faz", este slide equilibra a conversa mostrando "onde a IA falha" — admitir fraquezas é jogada de confiança avançada.]*
+*[Gatilho: honestidade que constrói confiança. Admitir a falha da IA antes que a plateia a aponte é jogada de credibilidade.]*
 
-"E já que estou dizendo o que a IA faz, eu seria um charlatão se não dissesse, na mesma respiração, o que ela não faz bem. Porque ela não é perfeita. Vamos olhar os defeitos de frente. A IA tem alucinações: ela pode inventar, com toda a cara de verdade, um número de artigo de lei que não existe. Ela tem limite de memória: pode perder o fio numa análise muito longa. Mas, sejamos justos, o ser humano também falha. O ser humano se cansa, se distrai, tem vieses, e não consegue ler milhões de registros.
+"Mas eu seria desonesto se vendesse a IA como infalível. Então vamos encarar o defeito dela de frente, agora. A IA de hoje alucina. Ela delira, esquece, e é capaz de inventar um artigo de lei com toda a cara de verdade, afirmando, convicta, que está certa quando está completamente errada. Guardem isso: ela erra com confiança.
 
-Então qual é a solução? Não é confiar cego em nenhum dos dois. É desenhar o trabalho para que um corrija o outro. A máquina amplia o alcance. O humano valida o juízo. Os erros da máquina não são os erros de vocês, e é exatamente por isso que, juntos, vocês são mais fortes do que qualquer um separado."
-
----
-
-### SLIDE 10 — Os níveis de utilização da IA
-
-*[Gatilho: a escada. Gerencia expectativas.]*
-
-"Entendidos a força e o limite, vamos ver que existe uma escada no uso dessa tecnologia, porque muita gente acha que IA é só aquele chat famoso. Não é. O primeiro degrau é exatamente esse: você pergunta, ela responde. O segundo degrau é a IA conectada aos dados reais da Secretaria, respondendo com a verdade do município. O terceiro é a automação, em que ela executa tarefas sozinha. E no topo estão os sistemas agênticos, em que vários agentes autônomos planejam, dividem o trabalho e colaboram entre si para concluir uma tarefa complexa do início ao fim.
-
-Guardem essa imagem da escada, porque daqui a pouco, ao vivo, eu vou levar vocês do primeiro ao último degrau, numa só demonstração."
+Só que — sejamos justos — o ser humano também erra. Além de poder cometer os mesmos enganos, ele se cansa, se distrai, tem vieses, e não consegue ler nem lembrar milhões de registros. Ou seja: nenhum dos dois é perfeito. E é justamente reconhecer isso que abre o caminho para a próxima ideia."
 
 ---
 
-### SLIDE 11 — Eficiência versus eficácia
+### SLIDE 11 — Limites de máquinas e de humanos
+
+*[Gatilho: da fraqueza à solução. Como o slide anterior já expôs a imprecisão dos dois lados, aqui o foco sai do problema e vai para a saída: fazer máquina e humano se corrigirem. A complementaridade é a jogada de confiança.]*
+
+"Acabamos de ver que nem a máquina nem o ser humano são infalíveis. A pergunta importante, então, não é em qual dos dois confiar — é como fazer os dois trabalharem juntos. Porque, reparem, os erros de um não são os erros do outro: a máquina não se cansa nem tem preguiça; o humano não inventa um artigo de lei do nada. Onde um tropeça, o outro tende a firmar o pé.
+
+Então a solução não é confiar cego em nenhum dos dois. É desenhar o trabalho para que um corrija o outro: a máquina amplia o alcance e a velocidade, o humano valida o juízo e a veracidade. E é exatamente por isso que, juntos, vocês são mais fortes do que qualquer um separado."
+
+---
+
+### SLIDE 12 — Eficiência versus eficácia
 
 *[Gatilho: a distinção que ilumina. O número 10x é o gancho.]*
 
@@ -119,7 +129,7 @@ E aqui está o ponto mais poderoso, ouçam bem: um profissional sênior, que já
 
 ---
 
-### SLIDE 12 — Dados, governança, LGPD e sigilo fiscal
+### SLIDE 13 — Dados, governança, LGPD e sigilo fiscal
 
 *[Gatilho: antecipar a objeção. Vem logo após "10x" porque, ao ouvir o ganho, o auditor pensa imediatamente no risco. Responda na hora.]*
 
@@ -129,7 +139,7 @@ Uma decisão que afeta o patrimônio do contribuinte exige rastreabilidade e rev
 
 ---
 
-### SLIDE 13 — A camada ontológica
+### SLIDE 14 — A camada ontológica
 
 *[Gatilho: revelar o segredo dos bastidores. Dá autoridade técnica e prepara a demo.]*
 
@@ -139,9 +149,19 @@ Pensem assim: essa camada é para a IA o que as definições do Código Tributá
 
 ---
 
-### SLIDE 14 — Demonstração ao vivo: seis etapas
+### SLIDE 15 — Os níveis de utilização da IA
 
-*[Gatilho: a entrega da promessa. Esta é a única demo, encadeada do degrau mais simples ao mais alto da escada do slide 10. Navegue pelas seis etapas com as setas. Se algo travar: sorria, "a tecnologia também tem seus dias", siga.]*
+*[Gatilho: a escada. Gerencia expectativas.]*
+
+"Entendidos a força e o limite, vamos ver que existe uma escada no uso dessa tecnologia, porque muita gente acha que IA é só aquele chat famoso. Não é. O primeiro degrau é exatamente esse: você pergunta, ela responde. O segundo degrau é a IA conectada aos dados reais da Secretaria, respondendo com a verdade do município. O terceiro é a automação, em que ela executa tarefas sozinha. E no topo estão os sistemas agênticos, em que vários agentes autônomos planejam, dividem o trabalho e colaboram entre si para concluir uma tarefa complexa do início ao fim.
+
+Guardem essa imagem da escada, porque daqui a pouco, ao vivo, eu vou levar vocês do primeiro ao último degrau, numa só demonstração."
+
+---
+
+### SLIDE 16 — Demonstração ao vivo: seis etapas
+
+*[Gatilho: a entrega da promessa. Esta é a única demo, encadeada do degrau mais simples ao mais alto da escada do slide 15. Navegue pelas seis etapas com as setas. Se algo travar: sorria, "a tecnologia também tem seus dias", siga.]*
 
 **Introdução ao bloco (dita antes da etapa 1):**
 "Chegou a hora. Lembram da escada de quatro degraus? Eu vou subir ela inteira com vocês, ao vivo, numa só sequência de seis cenas. Não se prendam aos nomes técnicos; prendam-se ao que cada uma faz pelo trabalho de vocês."
@@ -160,7 +180,7 @@ Pensem assim: essa camada é para a IA o que as definições do Código Tributá
 
 ---
 
-### SLIDE 15 — Proposta de implementação: aplicações fiscais com machine learning
+### SLIDE 17 — Proposta de implementação: aplicações fiscais com machine learning
 
 *[Gatilho: mudança de marcha. Sinalize que saímos da demo para a proposta.]*
 
@@ -170,7 +190,17 @@ O que isso significa na prática de vocês? Significa que a seleção de um cont
 
 ---
 
-### SLIDE 16 — Roadmap de implementação: da POC à escala
+### SLIDE 18 — O mercado mundial de IA
+
+*[Gatilho: situar o município no mapa. Tira o peso de "ter que construir do zero".]*
+
+"E para vocês decidirem bem, precisam enxergar como o mercado mundial se organiza. Existem duas camadas. Na base, as empresas horizontais: as gigantes que constroem a fundação, os grandes modelos de uso geral. Em cima, as empresas verticais: as que pegam essa fundação e a especializam para um setor — o jurídico, o contábil, o fiscal — resolvendo muito bem um único problema.
+
+Olhem esse mapa: são centenas de empresas, e ele muda toda semana. Mas aqui está o alívio: o município não precisa construir nenhum modelo. Esse trabalho gigantesco já está feito. A tarefa de vocês é mais simples e mais inteligente — escolher, na camada vertical, a solução certa para o problema certo. Não se constrói a usina; contrata-se a energia."
+
+---
+
+### SLIDE 19 — Roadmap de implementação: da POC à escala
 
 *[Gatilho: honestidade radical. Falar dos fracassos constrói confiança.]*
 
@@ -180,7 +210,7 @@ E as armadilhas são sempre as mesmas cinco. Querer fazer tudo de uma vez. Escol
 
 ---
 
-### SLIDE 17 — Os custos da IA: o token e a queda do preço
+### SLIDE 20 — Os custos da IA: o token e a queda do preço
 
 *[Gatilho: responder à objeção no instante em que ela nasce. Logo após "comecem", todo gestor pensa "quanto custa?". Responda com uma boa notícia.]*
 
@@ -190,7 +220,7 @@ E aqui está a boa notícia, prestem atenção porque ela é poderosa. Nos últi
 
 ---
 
-### SLIDE 18 — Encerramento: uma nova revolução
+### SLIDE 21 — Encerramento: uma nova revolução
 
 *[Gatilho: elevar a perspectiva. Visão histórica torna a palestra memorável.]*
 
@@ -204,7 +234,13 @@ E lembram da regra que eu cravei lá no começo? Copiloto, nunca piloto. O poder
 
 ---
 
-### SLIDE 19 — Perguntas e contato
+### SLIDE 22 — Frase de impacto final (20 palavras)
+
+> **"A Inteligência Artificial não substitui o fiscal, ela amplia seu alcance, fundamenta seu juízo e devolve o tempo que o trabalho roubou."**
+
+---
+
+### SLIDE 23 — Perguntas e contato
 
 *[Gatilho: generosidade final. Sem pressa.]*
 
@@ -212,13 +248,7 @@ E lembram da regra que eu cravei lá no começo? Copiloto, nunca piloto. O poder
 
 ---
 
-### SLIDE 20 — Frase de impacto final (20 palavras)
-
-> **"A Inteligência Artificial não substitui o fiscal, ela amplia seu alcance, fundamenta seu juízo e devolve o tempo que o trabalho roubou."**
-
----
-
-## Fontes das manchetes (Slide 6)
+## Fontes das manchetes (Slide 8)
 
 - Contec Brasil — bancos (Itaú, Santander) usam IA contra golpes: https://contec.org.br/contra-golpes-virtuais-veja-como-bancos-usam-ia-para-rastrear-acoes-suspeitas-e-barrar-ameacas/
 - Feedzai — 90% das instituições financeiras usam IA contra fraude (2025): https://www.feedzai.com/pt-br/pressrelease/tendencias-de-fraude-com-ia-2025/

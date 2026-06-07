@@ -191,8 +191,8 @@
   #s7 .illus img{display:block;width:100%;height:auto}
 
   /* slide 18 (custos): duas imagens empilhadas na coluna direita */
-  #s17 .art{flex-direction:column;gap:1rem}
-  #s17 .art img{width:min(34vw,420px);height:auto;display:block;
+  #s20 .art{flex-direction:column;gap:1rem}
+  #s20 .art img{width:min(34vw,420px);height:auto;display:block;
     border:1px solid var(--line);border-radius:10px;background:#fff}
 
   /* ---------- CARROSSEL de imagens ---------- */
@@ -217,19 +217,19 @@
   .carousel-dots i.on{background:var(--gold);transform:scale(1.25)}
 
   /* ---------- NUVEM DE PALAVRAS (slide 13) ---------- */
-  #s13 .concept svg.wordcloud{width:min(42vw,560px);overflow:hidden;border-radius:14px;
+  #s14 .concept svg.wordcloud{width:min(42vw,560px);overflow:hidden;border-radius:14px;
     border:1px solid var(--line);box-shadow:0 30px 80px rgba(0,0,0,.45)}
   .wordcloud .cloud-level,.wordcloud .cloud-center{opacity:0;transition:opacity .7s ease}
   .wordcloud .cloud-level.show,.wordcloud .cloud-center.show{opacity:1}
 
   /* slide 15: GIF de machine learning na coluna direita */
   /* slide 17 (s15): coluna da imagem mais larga p/ a imagem crescer */
-  #s15 .concept{grid-template-columns:1fr 1.08fr;gap:3.5vw}
-  #s15 .art img{width:100%;max-width:580px;height:auto;border-radius:12px;
+  #s17 .concept{grid-template-columns:1fr 1.08fr;gap:3.5vw}
+  #s17 .art img{width:100%;max-width:580px;height:auto;border-radius:12px;
     border:1px solid var(--line);box-shadow:0 24px 70px rgba(0,0,0,.45)}
   /* slide 15: compactar verticalmente (conteúdo + lista) */
-  #s15 .txtcol h2{font-size:clamp(1.6rem,3.4vw,2.8rem)}
-  #s15 .lead{margin-top:1.1rem}
+  #s17 .txtcol h2{font-size:clamp(1.6rem,3.4vw,2.8rem)}
+  #s17 .lead{margin-top:1.1rem}
   /* lista de exemplos (slide 15) */
   .ml-list{list-style:none;margin-top:.5rem;display:grid;gap:.45rem;max-width:60ch}
   .ml-list li{position:relative;padding-left:1.4rem;color:var(--paper-dim);font-weight:300;
@@ -239,30 +239,30 @@
   .ml-list li strong{color:var(--paper);font-weight:600}
 
   /* slide 10: círculos concêntricos revelados no clique (fade, sem deslize) */
-  #s10 .levels-circles .reveal{transform:none}
+  #s15 .levels-circles .reveal{transform:none}
 
   /* slide 17: título + link de custo ($) e imagens empilhadas */
-  #s17 .title-row{display:flex;align-items:center;gap:1.1rem;flex-wrap:wrap}
+  #s20 .title-row{display:flex;align-items:center;gap:1.1rem;flex-wrap:wrap}
   .cost-link{color:var(--gold);display:inline-flex;flex-shrink:0;
     transition:transform .25s ease,color .25s ease}
   .cost-link:hover{color:var(--gold-bright);transform:scale(1.12)}
   .cost-link svg{width:42px;height:42px;display:block}
-  #s17 .art{flex-direction:column;gap:.55rem}
-  #s17 .art img{width:100%;max-width:270px;height:auto;border-radius:8px;
+  #s20 .art{flex-direction:column;gap:.55rem}
+  #s20 .art img{width:100%;max-width:270px;height:auto;border-radius:8px;
     border:1px solid var(--line);box-shadow:0 14px 40px rgba(0,0,0,.4)}
 
   /* slide 16: erros como cards de alerta em 2 colunas */
-  #s16 .alert-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1.3rem;max-width:74ch}
-  #s16 .alert{display:flex;align-items:center;gap:.8rem;padding:.8rem 1rem;border-radius:8px;
+  #s19 .alert-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1.3rem;max-width:74ch}
+  #s19 .alert{display:flex;align-items:center;gap:.8rem;padding:.8rem 1rem;border-radius:8px;
     border:1px solid rgba(224,86,77,.32);border-left:3px solid #e0564d;background:rgba(224,86,77,.08)}
-  #s16 .alert .num{font-family:var(--mono);font-size:.85rem;font-weight:600;color:#e0564d;flex-shrink:0}
-  #s16 .alert .txt{font-size:clamp(.92rem,1.1vw,1.08rem);color:var(--paper);line-height:1.3;font-weight:500}
-  #s16 .alert:last-child{grid-column:1 / -1}
+  #s19 .alert .num{font-family:var(--mono);font-size:.85rem;font-weight:600;color:#e0564d;flex-shrink:0}
+  #s19 .alert .txt{font-size:clamp(.92rem,1.1vw,1.08rem);color:var(--paper);line-height:1.3;font-weight:500}
+  #s19 .alert:last-child{grid-column:1 / -1}
 
   /* novo slide Tipos de IA: diagrama ANI/AGI/ASI + mapa MAD */
-  #s-tipos-ia .concept svg.ai-levels{width:min(42vw,560px);margin-top:.6rem}
-  #s-tipos-ia .map-block{display:flex;flex-direction:column;align-items:center;gap:.55rem}
-  #s-tipos-ia .art img{width:100%;max-width:540px;height:auto;display:block;border-radius:10px;
+  #s18 .concept svg.ai-levels{width:min(42vw,560px);margin-top:.6rem}
+  #s18 .map-block{display:flex;flex-direction:column;align-items:center;gap:.55rem}
+  #s18 .art img{width:100%;max-width:540px;height:auto;display:block;border-radius:10px;
     border:1px solid var(--line);box-shadow:0 24px 70px rgba(0,0,0,.45)}
 
   /* ===== links externos / novas imagens / carrossel notícias / nav / modais ===== */
@@ -270,7 +270,7 @@
     text-decoration:none;border-bottom:1px solid rgba(90,176,230,.4);transition:color .2s,border-color .2s;cursor:pointer}
   .img-extlink:hover{color:var(--gold-bright);border-color:var(--gold-bright)}
 
-  #s8 .concept svg.responde{width:min(46vw,580px)}
+  #s9 .concept svg.responde{width:min(46vw,580px)}
   /* slide 9 (s8): setas com fluxo contínuo + revelação sequencial do 5W2H */
   .responde .arr{fill:none;stroke-width:1.7;stroke-opacity:.9;
     stroke-dasharray:7 5;animation:arrflow .85s linear infinite}
@@ -282,10 +282,10 @@
     animation-timing-function:ease;animation-fill-mode:forwards}
   @keyframes w2hrow{from{opacity:0}to{opacity:1}}
 
-  #s9 .art img,#s-imprecisao .art img,#s3 .art img{width:100%;max-width:520px;height:auto;border-radius:10px;border:1px solid var(--line);
+  #s11 .art img,#s10 .art img,#s5 .art img{width:100%;max-width:520px;height:auto;border-radius:10px;border:1px solid var(--line);
     box-shadow:0 22px 60px rgba(0,0,0,.4)}
-  #s18 .illus{height:auto;border:0;box-shadow:none}
-  #s18 .illus img{width:100%;max-width:420px;height:auto;border-radius:12px;display:block}
+  #s21 .illus{height:auto;border:0;box-shadow:none}
+  #s21 .illus img{width:100%;max-width:420px;height:auto;border-radius:12px;display:block}
 
   /* cursor de zoom em imagens clicáveis (carrossel fica de fora) */
   .illus img,.art img,.frame-wrap img,.contact-qr img{cursor:zoom-in}
@@ -339,22 +339,22 @@
   .timeline .era.now .ev{color:var(--gold-bright)}
 
   /* ---------- CLOSING QUOTE (síntese) ---------- */
-  #s19{justify-content:center;text-align:center;align-items:center}
-  #s19 .kicker{justify-content:center;font-size:clamp(.8rem,1.4vw,1.05rem);margin-bottom:2.2rem}
-  #s19 .quote{max-width:75vw;margin:0 auto;font-weight:400;line-height:1.28;
+  #s22{justify-content:center;text-align:center;align-items:center}
+  #s22 .kicker{justify-content:center;font-size:clamp(.8rem,1.4vw,1.05rem);margin-bottom:2.2rem}
+  #s22 .quote{max-width:75vw;margin:0 auto;font-weight:400;line-height:1.28;
     font-size:clamp(1.9rem,4.4vw,3.6rem)}
-  #s19 .quote strong{font-weight:700;color:var(--gold-bright)}
+  #s22 .quote strong{font-weight:700;color:var(--gold-bright)}
 
   /* ---------- CONTATO (slide 20) ---------- */
-  #s20 .contact-split{display:grid;grid-template-columns:3fr 1fr;gap:2rem;
+  #s23 .contact-split{display:grid;grid-template-columns:3fr 1fr;gap:2rem;
     align-items:center;margin-top:2rem;max-width:720px}
-  #s20 .contact-info{font-family:var(--mono);font-size:.85rem;letter-spacing:.18em;
+  #s23 .contact-info{font-family:var(--mono);font-size:.85rem;letter-spacing:.18em;
     color:var(--gold);line-height:2.2;text-transform:uppercase}
-  #s20 .contact-info strong{font-weight:600;font-size:calc(.85rem + 2pt)}
-  #s20 .contact-info a{color:var(--gold);text-decoration:none;
+  #s23 .contact-info strong{font-weight:600;font-size:calc(.85rem + 2pt)}
+  #s23 .contact-info a{color:var(--gold);text-decoration:none;
     border-bottom:1px solid rgba(90,176,230,.4);transition:color .2s,border-color .2s}
-  #s20 .contact-info a:hover{color:var(--gold-bright);border-color:var(--gold-bright)}
-  #s20 .contact-qr img{width:100%;max-width:170px;height:auto;display:block;
+  #s23 .contact-info a:hover{color:var(--gold-bright);border-color:var(--gold-bright)}
+  #s23 .contact-qr img{width:100%;max-width:170px;height:auto;display:block;
     background:#fff;padding:.5rem;border-radius:10px}
 
   /* ---------- HUD ---------- */
