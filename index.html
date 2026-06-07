@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <title>IA nas Finanças Públicas — Workshop</title>
+<link rel="icon" href="favicon.ico" sizes="any">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,900;1,9..144,500&family=Archivo:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -34,7 +35,7 @@
       <div class="step reveal"><span class="num">02</span><span class="txt">Quem já trilha esse caminho</span></div>
       <div class="step reveal"><span class="num">03</span><span class="txt">A escada de conceitos: do chat ao agente</span></div>
       <div class="step reveal"><span class="num">04</span><span class="txt">Demonstrações ao vivo</span></div>
-      <div class="step reveal"><span class="num">05</span><span class="txt">Como implementar IA</span></div>
+      <div class="step reveal"><span class="num">05</span><span class="txt">Como implementar a IA</span></div>
     </div>
   </section>
 
@@ -58,21 +59,32 @@
   <section class="slide" id="s4">
     <div class="kicker"><div class="clickcue"><span class="pulse"></span></div>70 anos de história</div>
     <h2>A mesma tarefa,<br>cinco linguagens</h2>
-    <div class="evo">
-      <div class="row reveal"><span class="gen">Binário</span><span class="code">01001000 01001001 00100000 10101010 10100001 00111100 01001000 11011011</span></div>
-      <div class="row reveal"><span class="gen">COBOL</span><span class="code">READ ISS-FILE    PERFORM UNTIL EOF    IF VALOR-ISS-ABERTO &gt; 0        ADD VALOR-ISS-ABERTO TO TOTAL-ISS(CONTRIBUINTE)    END-IF    READ ISS-FILE     END-PERFORM     SORT TABELA-CONTRIBUINTES DESCENDING KEY TOTAL-ISS      PERFORM VARYING WS-INDICE FROM 1 BY 1 UNTIL WS-INDICE &gt; 10    DISPLAY CONTRIBUINTE(WS-INDICE) TOTAL-ISS(WS-INDICE)    END-PERFORM</span></div>
-      <div class="row reveal"><span class="gen">Python</span><span class="code">df_iss.filter(col("valor_iss_aberto") &gt; 0).groupBy("contribuinte").agg(sum("valor_iss_aberto").alias("total_iss_aberto")).orderBy(desc("total_iss_aberto")).limit(10)</span></div>
-      <div class="row reveal"><span class="gen">SQL</span><span class="code">SELECT  contribuinte, SUM(valor_iss_aberto)  FROM tb_iss WHERE valor_iss_aberto &gt; 0 GROUP BY contribuinte ORDER BY total_iss_aberto DESC LIMIT 10;</span></div>
-      <div class="row reveal"><span class="gen">IA · Prompt</span><span class="code">"mostre os 10 principais contribuintes com ISS em aberto"</span></div>
+    <div class="evo two-col">
+      <div class="evo-left">
+        <div class="row reveal"><span class="gen">Binário</span><span class="code">01001000 01001001 00100000 10101010 10100001 00111100 01001000 11011011</span></div>
+        <div class="row reveal"><span class="gen">COBOL</span><span class="code">READ ISS-FILE    PERFORM UNTIL EOF    IF VALOR-ISS-ABERTO &gt; 0        ADD VALOR-ISS-ABERTO TO TOTAL-ISS(CONTRIBUINTE)    END-IF    READ ISS-FILE     END-PERFORM     SORT TABELA-CONTRIBUINTES DESCENDING KEY TOTAL-ISS      PERFORM VARYING WS-INDICE FROM 1 BY 1 UNTIL WS-INDICE &gt; 10    DISPLAY CONTRIBUINTE(WS-INDICE) TOTAL-ISS(WS-INDICE)    END-PERFORM</span></div>
+        <div class="row reveal"><span class="gen">Python</span><span class="code">df_iss.filter(col("valor_iss_aberto") &gt; 0).groupBy("contribuinte").agg(sum("valor_iss_aberto").alias("total_iss_aberto")).orderBy(desc("total_iss_aberto")).limit(10)</span></div>
+        <div class="row reveal"><span class="gen">SQL</span><span class="code">SELECT  contribuinte, SUM(valor_iss_aberto)  FROM tb_iss WHERE valor_iss_aberto &gt; 0 GROUP BY contribuinte ORDER BY 2 DESC LIMIT 10;</span></div>
+      </div>
+      <div class="evo-right">
+        <div class="row reveal prompt"><span class="gen">IA · Prompt</span><span class="code">"mostre os 10 principais contribuintes com ISS em aberto"</span></div>
+      </div>
     </div>
   </section>
 
 <!-- ============ SLIDE 3 — CENÁRIO ============ -->
   <section class="slide" id="s3">
     <div class="kicker"><div class="clickcue"><span class="pulse"></span></div>O descompasso</div>
-    <h2>Os dados crescem<br>A equipe, não</h2>
-    <p class="lead">Mais notas fiscais de serviço, mais inscrições em dívida ativa, mais processos — e a mesma quantidade de fiscais. Ao mesmo tempo, a <strong>Lei de Acesso à Informação</strong> e a <strong>Lei de Responsabilidade Fiscal</strong> vigiam cada passo.</p>
-    <p class="lead reveal">A análise ainda é feita, hoje, <em class="hl">contribuinte por contribuinte</em>. A IA não substitui o poder de polícia. Ela amplia o alcance dos seus olhos.</p>
+    <div class="concept">
+      <div class="txtcol">
+        <h2>Os dados crescem<br>A equipe, não</h2>
+        <p class="lead reveal">Mais notas fiscais de serviço, mais inscrições em dívida ativa, mais processos — e a mesma quantidade de fiscais. Ao mesmo tempo, a <strong>Lei de Acesso à Informação</strong> e a <strong>Lei de Responsabilidade Fiscal</strong> vigiam cada passo.</p>
+        <p class="lead reveal">A análise ainda é feita, hoje, <em class="hl">contribuinte por contribuinte</em>. A IA não substitui o exercício do poder de polícia. Ela amplia o alcance dos seus olhos.</p>
+      </div>
+      <div class="art">
+        <img class="reveal" src="imgs/fiscal_tributário.jpg" alt="Fiscal tributário ao trabalho" />
+      </div>
+    </div>
   </section>
 
 <!-- ============ SLIDE 5 — NÚMEROS ============ -->
@@ -84,7 +96,7 @@
       <div class="n reveal"><div class="fig">~R$ 5,69 tri</div><div class="cap">contencioso tributário estimado em 2020 (Insper)</div></div>
       <div class="n reveal"><div class="fig">1.500 h</div><div class="cap">por ano para uma empresa cumprir obrigações fiscais — entre as piores do mundo (Banco Mundial)</div></div>
     </div>
-    <p class="lead reveal" style="margin-top:2rem">Antes mesmo de absorver a Reforma da <strong>Emenda Constitucional nº 132/2023</strong>. Nenhum humano mantém isso de cabeça enquanto cruza milhões de lançamentos.</p>
+    <p class="lead reveal" style="margin-top:2rem">Antes mesmo de absorver a Reforma da <strong>Emenda Constitucional nº 132/2023</strong>. Nenhum ser humano consegue manter esse volume de informações apenas na memória enquanto cruza milhões de lançamentos.</p>
   </section>
 
 <!-- ============ SLIDE 7 — PAPEL DO FISCAL (perspectiva c/ ilustração) ============ -->
@@ -92,7 +104,7 @@
     <div class="persp">
       <div class="txtcol">
         <div class="kicker"><div class="clickcue"><span class="pulse"></span></div>O papel do fiscal</div>
-        <h2>A IA é seu Copiloto</h2>
+        <h2>A IA é o seu copiloto</h2>
         <p class="lead reveal">A IA tira o trabalho mecânico e devolve o que define a profissão: análise, interpretação da norma, juízo.</p>
         <p class="lead reveal">A decisão de autuar e o lançamento do crédito tributário são exercício do <strong>poder de polícia</strong> — e o poder de polícia, por lei e por natureza, é <em class="hl">indelegável</em>. A máquina não tem, e não pode ter, essa competência. Ela é de vocês.</p>
       </div>
@@ -128,52 +140,60 @@
       <div class="carousel-caption"><a class="carousel-cap-link" href="#" target="_blank" rel="noopener"></a></div>
       <div class="carousel-dots" aria-hidden="true"></div>
     </div>
+    <p class="carousel-note">Casos reais de adoção de IA no setor público e privado.</p>
   </section>
 
 <!-- ============ SLIDE 8 — 5W2H ============ -->
   <section class="slide" id="s8">
-    <div class="kicker">O que a IA já faz</div>
+    <div class="kicker"><div class="clickcue"><span class="pulse"></span></div>O que a IA já faz</div>
     <div class="concept">
       <div class="txtcol">
         <h2>O que a máquina responde?</h2>
-        <p class="lead">Por décadas o computador só respondia perguntas fáceis como: <em class="hl">o que, quem, quando, onde e quanto</em>. Bastava consultar um banco de dados. O salto da IA está no difícil — o <em class="hl">porquê</em> e o <em class="hl">como</em>.</p>
+        <p class="lead reveal">Por décadas o computador só respondia perguntas fáceis como: <em class="hl">o que, quem, quando, onde e quanto</em>. Bastava consultar um banco de dados. O salto da IA está no difícil — o <em class="hl">por quê</em> e o <em class="hl">como</em>.</p>
       </div>
       <div class="art">
-        <svg class="responde" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" font-family="Archivo, Arial, sans-serif" text-anchor="middle">
+        <svg class="responde reveal" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" font-family="Archivo, Arial, sans-serif" text-anchor="middle">
           <defs>
             <marker id="ah-pc" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#9098a0"/></marker>
             <marker id="ah-ia" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M0,1 L9,5 L0,9 Z" fill="#5ab0e6"/></marker>
           </defs>
           <text x="320" y="36" fill="#8fd0f7" font-size="26" font-weight="700" letter-spacing="2">5W2H</text>
-          <!-- setas do PC (cinza) → What, Who, When, Where, How much -->
-          <g stroke="#9098a0" stroke-width="1.4" opacity=".8">
-            <line x1="138" y1="250" x2="210" y2="108" marker-end="url(#ah-pc)"/>
-            <line x1="138" y1="250" x2="210" y2="200" marker-end="url(#ah-pc)"/>
-            <line x1="138" y1="250" x2="210" y2="246" marker-end="url(#ah-pc)"/>
-            <line x1="138" y1="250" x2="210" y2="292" marker-end="url(#ah-pc)"/>
-            <line x1="138" y1="250" x2="210" y2="384" marker-end="url(#ah-pc)"/>
-          </g>
-          <!-- setas da IA (azul) → todos os 7 itens -->
-          <g stroke="#5ab0e6" stroke-width="1.4" opacity=".8">
-            <line x1="502" y1="250" x2="430" y2="108" marker-end="url(#ah-ia)"/>
-            <line x1="502" y1="250" x2="430" y2="154" marker-end="url(#ah-ia)"/>
-            <line x1="502" y1="250" x2="430" y2="200" marker-end="url(#ah-ia)"/>
-            <line x1="502" y1="250" x2="430" y2="246" marker-end="url(#ah-ia)"/>
-            <line x1="502" y1="250" x2="430" y2="292" marker-end="url(#ah-ia)"/>
-            <line x1="502" y1="250" x2="430" y2="338" marker-end="url(#ah-ia)"/>
-            <line x1="502" y1="250" x2="430" y2="384" marker-end="url(#ah-ia)"/>
-          </g>
           <circle cx="78" cy="250" r="58" fill="#9098a0" stroke="#c4c9cf" stroke-width="2"/>
           <text x="78" y="259" fill="#ffffff" font-size="26" font-weight="700">PC</text>
           <circle cx="562" cy="250" r="58" fill="#8fd0f7" stroke="#5ab0e6" stroke-width="2"/>
           <text x="562" y="259" fill="#0d3553" font-size="26" font-weight="700">IA</text>
-          <g font-size="15.5">
+          <!-- cada linha do 5W2H + suas setas conectadas; revelação sequencial -->
+          <g class="w2h-row" font-size="15.5" style="animation-delay:.12s">
+            <line class="arr arr-pc" x1="138" y1="250" x2="210" y2="108" marker-end="url(#ah-pc)"/>
+            <line class="arr arr-ia" x1="502" y1="250" x2="430" y2="108" marker-end="url(#ah-ia)"/>
             <text x="320" y="112" fill="#e6dfd2"><tspan fill="#8fd0f7" font-weight="600">What</tspan> (o quê) – descreve</text>
+          </g>
+          <g class="w2h-row" font-size="15.5" style="animation-delay:.30s">
+            <line class="arr arr-ia" x1="502" y1="250" x2="430" y2="154" marker-end="url(#ah-ia)"/>
             <text x="320" y="158" fill="#e6dfd2"><tspan fill="#8fd0f7" font-weight="600">Why</tspan> (por quê) – explica</text>
+          </g>
+          <g class="w2h-row" font-size="15.5" style="animation-delay:.48s">
+            <line class="arr arr-pc" x1="138" y1="250" x2="210" y2="200" marker-end="url(#ah-pc)"/>
+            <line class="arr arr-ia" x1="502" y1="250" x2="430" y2="200" marker-end="url(#ah-ia)"/>
             <text x="320" y="204" fill="#e6dfd2"><tspan fill="#8fd0f7" font-weight="600">Who</tspan> (quem) – identifica</text>
+          </g>
+          <g class="w2h-row" font-size="15.5" style="animation-delay:.66s">
+            <line class="arr arr-pc" x1="138" y1="250" x2="210" y2="246" marker-end="url(#ah-pc)"/>
+            <line class="arr arr-ia" x1="502" y1="250" x2="430" y2="246" marker-end="url(#ah-ia)"/>
             <text x="320" y="250" fill="#e6dfd2"><tspan fill="#8fd0f7" font-weight="600">When</tspan> (quando) – data</text>
+          </g>
+          <g class="w2h-row" font-size="15.5" style="animation-delay:.84s">
+            <line class="arr arr-pc" x1="138" y1="250" x2="210" y2="292" marker-end="url(#ah-pc)"/>
+            <line class="arr arr-ia" x1="502" y1="250" x2="430" y2="292" marker-end="url(#ah-ia)"/>
             <text x="320" y="296" fill="#e6dfd2"><tspan fill="#8fd0f7" font-weight="600">Where</tspan> (onde) – localiza</text>
+          </g>
+          <g class="w2h-row" font-size="15.5" style="animation-delay:1.02s">
+            <line class="arr arr-ia" x1="502" y1="250" x2="430" y2="338" marker-end="url(#ah-ia)"/>
             <text x="320" y="342" fill="#e6dfd2"><tspan fill="#8fd0f7" font-weight="600">How</tspan> (como) – executa</text>
+          </g>
+          <g class="w2h-row" font-size="15.5" style="animation-delay:1.20s">
+            <line class="arr arr-pc" x1="138" y1="250" x2="210" y2="384" marker-end="url(#ah-pc)"/>
+            <line class="arr arr-ia" x1="502" y1="250" x2="430" y2="384" marker-end="url(#ah-ia)"/>
             <text x="320" y="388" fill="#e6dfd2"><tspan fill="#8fd0f7" font-weight="600">How much</tspan> (quanto) – estima</text>
           </g>
         </svg>
@@ -187,7 +207,7 @@
     <div class="concept">
       <div class="txtcol">
         <h2>A imprecisão da IA</h2>
-        <p class="lead reveal">Hoje a IA <em class="hl">alucina, delira, esquece</em> e até pode inventar um artigo de lei com cara de verdade, afirmando categoricamente que está certa mesmo estando errada.<br>Já os humanos além de poderem cometer <em class="hl">os mesmos erros</em> ainda se cansam, se distraem, tem vieses e não conseguem ler e lembrar de milhões de registros.</p>
+        <p class="lead reveal">Hoje a IA <em class="hl">alucina, delira, esquece</em> e até pode inventar um artigo de lei com cara de verdade, afirmando categoricamente que está certa mesmo estando errada.<br>Já os humanos, além de poderem cometer <em class="hl">os mesmos erros</em>, ainda se cansam, se distraem, têm vieses e não conseguem ler nem lembrar milhões de registros.</p>
       </div>
       <div class="art">
         <img class="reveal" src="imgs/calculadora_x_dados.png" alt="Calculadora e dados — precisão e imprecisão" />
@@ -201,7 +221,7 @@
     <div class="concept">
       <div class="txtcol">
         <h2>IA x Humanos</h2>
-        <p class="lead reveal">Então a solução é não confiar cegamente em nenhum dos dois. Precisamos planejar uma forma de trabalho conjunto para que um corrija o outro: a máquina amplia o alcance e velocidade, o humano valida o juízo e veracidade.<br>Os erros de um não são os erros do outro.</p>
+        <p class="lead reveal">Então a solução é não confiar cegamente em nenhum dos dois. Precisamos planejar uma forma de trabalho conjunto para que um corrija o outro: a máquina amplia o alcance e a velocidade; o humano valida o juízo e a veracidade.<br>Os erros de um não são os erros do outro.</p>
       </div>
       <div class="art">
         <img class="reveal" src="imgs/humano_x_ia.png" alt="Humano e IA em colaboração" />
@@ -238,7 +258,7 @@
       <div class="txtcol">
         <h2>Governança não é freio<br>É a condição</h2>
         <p class="lead">Sem dado de qualidade, não há IA confiável. No setor público, ela opera sob a <strong>LGPD</strong> e o <strong>sigilo fiscal</strong>, com controle de acesso e supervisão humana.</p>
-        <p class="lead reveal">Se a IA aponta um contribuinte, ela precisa explicar o porquê — como um auto de infração precisa de <em class="hl">motivação</em>. IA sem fundamentação não se sustenta num processo. Assim como um lançamento sem motivação não se sustenta.</p>
+        <p class="lead reveal">Se a IA aponta um contribuinte, ela precisa explicar por que apontou aquele contribuinte com as devidas justificativas dos motivos da indicação — como um auto de infração precisa de <em class="hl">motivação</em>. IA sem fundamentação não se sustenta num processo. Assim como um lançamento sem motivação não se sustenta.</p>
       </div>
       <div class="art">
         <div class="carousel flow-carousel" data-carousel>
@@ -263,7 +283,7 @@
     <div class="concept">
       <div class="txtcol">
         <h2>A camada<br>ontológica</h2>
-        <p class="lead">Um mapa de significados que ensina à máquina o que é um <strong>contribuinte</strong>, um <strong>fato gerador</strong>, o que separa um débito <em class="hl">suspenso</em> de um em <em class="hl">dívida ativa</em>.</p>
+        <p class="lead">A camada ontológica, ou informações de metadados dos processos, é um mapa de significados que ensina à máquina o que é um <strong>contribuinte</strong>, um <strong>fato gerador</strong>, o que separa um débito <em class="hl">suspenso</em> de um em <em class="hl">dívida ativa</em>.</p>
         <p class="lead reveal">É para a IA o que as definições do Código Tributário são para o Direito. Sem o mapa, a IA adivinha. Com ele, ela raciocina sobre a realidade jurídica do município.</p>
       </div>
       <div class="art">
@@ -273,7 +293,7 @@
             <text x="293.5" y="213.6">SEFAZ</text>
             <text x="325.0" y="327.2">ICMS</text>
             <text x="269.1" y="327.5">ISS</text>
-            <text x="233.0" y="203.8">IoF</text>
+            <text x="233.0" y="203.8">IOF</text>
             <text x="286.3" y="174.1">CAT</text>
             <text x="347.8" y="183.6">PAT</text>
             <text x="343.1" y="363.0">ITBI</text>
@@ -310,11 +330,11 @@
             <text x="109.7" y="278.3">CTE 11651/1991</text>
             <text x="468.2" y="124.7">Decreto RCTE 4852/1997</text>
             <text x="110.7" y="236.4">IN I99/2022-SRE</text>
-            <text x="465.6" y="341.2">Anéxo XII</text>
-            <text x="498.9" y="238.6">Anéxo XVIII</text>
-            <text x="103.0" y="140.5">Ajuste Sinef 7/2005</text>
-            <text x="270.0" y="31.0">Ajuste Sinef 19/2016</text>
-            <text x="346.2" y="506.2">Ajuste Sinef 21/2010</text>
+            <text x="465.6" y="341.2">Anexo XII</text>
+            <text x="498.9" y="238.6">Anexo XVIII</text>
+            <text x="103.0" y="140.5">Ajuste SINIEF 7/2005</text>
+            <text x="270.0" y="31.0">Ajuste SINIEF 19/2016</text>
+            <text x="346.2" y="506.2">Ajuste SINIEF 21/2010</text>
             <text x="452.1" y="56.1">Lei Municipal 01/1998</text>
             <text x="155.8" y="491.1">Lei Municipal 1.488/2010</text>
             <text x="300.0" y="264.9">Lei Complementar Municipal 101/2000</text>
@@ -429,7 +449,7 @@
             <text x="300.0" y="263.2">Natureza Jurídica</text>
             <text x="300.0" y="263.2">Competência Tributária</text>
             <text x="300.0" y="263.2">Imunidade</text>
-            <text x="300.0" y="263.2">Fato Impunível</text>
+            <text x="300.0" y="263.2">Fato Imponível</text>
             <text x="300.0" y="263.2">Ano Calendário</text>
             <text x="300.0" y="263.2">Limites</text>
             <text x="300.0" y="263.2">Certidões</text>
@@ -453,7 +473,7 @@
             <text x="300.0" y="263.2">Recuperação Judicial</text>
             <text x="300.0" y="263.2">Crimes</text>
             <text x="300.0" y="263.2">Relações de Consumo</text>
-            <text x="300.0" y="263.2">Sumula Vinculante</text>
+            <text x="300.0" y="263.2">Súmula Vinculante</text>
             <text x="300.0" y="263.2">Emenda Constitucional</text>
             <text x="300.0" y="263.2">Meios de Atuação</text>
             <text x="300.0" y="263.2">Ciclo</text>
@@ -471,7 +491,7 @@
     <div class="concept">
       <div class="txtcol">
         <h2>4 Níveis de uso</h2>
-        <p class="lead">IA não é só um chat interessante. Esse é apenas o primeiro degrau.<br>No topo estão os <em class="hl">sistemas agênticos</em>: agentes autônomos que planejam, dividem o trabalho e colaboram entre si.</p>
+        <p class="lead">IA não é só um chat interessante. Esse é apenas o primeiro degrau.<br>No topo estão os <em class="hl">sistemas baseados em agentes</em>: que possuem agentes autônomos que planejam, dividem o trabalho e colaboram entre si. Dessa forma não é mais necessário desenvolver apenas sistemas corporativos com lógica determinística, para solucionar todos os problemas de negócio ou otimizar os processos empresariais e governamentais.</p>
       </div>
       <div class="art">
 <svg class="levels-circles" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" font-family="Archivo, Arial, sans-serif" text-anchor="middle">
@@ -532,7 +552,7 @@
             </div>
             <div class="acc-item">
               <button class="acc-head"><span class="acc-num">04</span> Busca RAG + Ledger</button>
-              <div class="acc-body"><p><b>Busca inteligente: RAG + Ledger.</b> <b>RAG</b> consulta a lei (CTN, Código do Município); <b>Ledger</b> guarda o dado auditável. Em volta: <b>harness</b> (fluxo), <b>guardrails</b> (segurança e sigilo) e <b>agents</b> (execução). Resposta com a base legal citada.</p></div>
+              <div class="acc-body"><p><b>Busca inteligente: RAG + Ledger.</b> <b>RAG</b> consulta a lei (CTN, Código do Município); <b>Ledger</b> guarda o dado auditável. Em volta: <b>harness</b> (fluxo), <b>guardrails</b> (mecanismos de segurança e sigilo) e <b>agents</b> (agentes especializados). Resposta com a base legal citada.</p></div>
             </div>
             <div class="acc-item">
               <button class="acc-head"><span class="acc-num">05</span> Dashboard</button>
@@ -554,7 +574,7 @@
     <div class="concept">
       <div class="txtcol">
         <h2>IA Generativa + Machine Learning</h2>
-        <p class="lead reveal">A IA generativa raciocina estatisticamente através de modelos LLMs, e por isso é imprecisa com números ou referências exatas. Combinada a <em class="hl">modelos estatísticos e de machine learning</em>, treinados com os dados históricos, a seleção de um contribuinte vem com uma <strong>probabilidade calculada, mensurável e auditável</strong> — não um palpite. A máquina indica e fundamenta; quem lança o crédito é o fiscal.</p>
+        <p class="lead reveal">A IA generativa raciocina estatisticamente por meio de modelos de linguagem (LLMs), e por isso é imprecisa com números ou referências exatas. Combinada a <em class="hl">modelos estatísticos e de machine learning</em>, treinados com os dados históricos, a seleção de um contribuinte vem com uma <strong>probabilidade calculada, mensurável e auditável</strong>, deixando de ser apenas um palpite. A máquina indica e fundamenta; quem lança o crédito é o fiscal.</p>
         <div class="reveal">
           <p class="lead" style="margin-bottom:0">Exemplos de projetos beneficiados por arquiteturas avançadas:</p>
           <ul class="ml-list">
@@ -576,7 +596,7 @@
     <div class="concept">
       <div class="txtcol">
         <h2>O mercado mundial de IA</h2>
-        <p class="lead reveal">O ecossistema mundial se divide em duas camadas: empresas <em class="hl">horizontais</em> (a fundação, os grandes modelos) e <em class="hl">verticais</em> (especializadas — jurídico, contábil, fiscal). O município não constrói o modelo: escolhe bem a camada vertical.</p>
+        <p class="lead reveal">O ecossistema mundial se divide em duas camadas: empresas <em class="hl">horizontais</em> (a fundação, os grandes modelos) e <em class="hl">verticais</em> (especializadas — jurídico, contábil, fiscal). Então o desafio de empresas, instituições e órgãos públicos não é construir modelos de IA, mas sim escolher as melhores soluções de empresas da camada vertical, que especializaram seu serviço para resolver bem um único problema.</p>
         <svg class="ai-levels reveal" viewBox="0 0 620 250" xmlns="http://www.w3.org/2000/svg" font-family="Archivo, Arial, sans-serif" text-anchor="middle">
           <defs>
             <g id="brain" fill="none" stroke="#15578a" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
@@ -654,7 +674,7 @@
 <!-- ============ SLIDE 16 — ROADMAP / POC ============ -->
   <section class="slide" id="s16">
     <div class="kicker"><div class="clickcue"><span class="pulse"></span></div>Da POC à escala</div>
-    <h2>Comece pequeno<br>teste rápido, valide tudo, depois escale</h2>
+    <h2>Comece pequeno</h2>
     <p class="lead">A <strong>POC</strong> (Prova de Conceito) deve ser o teste de bancada antes de pensar em comprar a fábrica.<br>Aplicar IA em um caso real, de alto valor e baixo risco, como a triagem de inadimplência de ISS, pode ser o segredo do sucesso.<br><br>Principais erros dos projetos de IA:</p>
     <div class="alert-grid reveal">
       <div class="alert"><span class="num">×1</span><span class="txt">Querer fazer tudo de uma vez</span></div>
@@ -680,8 +700,8 @@
             </svg>
           </span>
         </div>
-        <p class="lead reveal">A IA cobra por <em class="hl">token</em> — o "pedágio" da era da IA. Um token é um pedaço de texto, cerca de <strong>4 letras</strong>, ou <strong>¾ de palavra</strong>. Você paga pelo que envia e pelo que recebe.</p>
-        <p class="lead reveal">Duas curvas se cruzaram: o <strong>preço por token despencou</strong> em ordens de grandeza, enquanto a <strong>capacidade disparou</strong> — modelos que leem centenas de páginas de uma vez. Tarefas inviáveis há 3 anos hoje custam <em class="hl">centavos</em>. Como o armazenamento e a energia solar: a barreira deixou de ser o custo.</p>
+        <p class="lead reveal">A IA cobra por <em class="hl">token</em> — o "pedágio" da era da IA. Um token é um pedaço de texto, cerca de <strong>4 letras</strong>, ou <strong>¾ de uma palavra</strong>. Você paga pelo que envia e pelo que recebe.</p>
+        <p class="lead reveal">Duas curvas se cruzaram: o <strong>preço por token despencou</strong> em ordens de grandeza, enquanto a <strong>capacidade disparou</strong> — modelos que leem centenas de páginas de uma vez. Tarefas inviáveis há 3 anos hoje custam <em class="hl">centavos</em>. Assim como ocorreu com o armazenamento de dados e com a energia solar: eles se transformaram em commodities e a barreira deixou de ser o custo.</p>
       </div>
       <div class="art">
         <img class="reveal" src="imgs/llm_context_window_evolution_2025.01.jpg" alt="Evolução da janela de contexto dos LLMs (2025)" />
@@ -714,7 +734,7 @@
 <!-- ============ SLIDE 19 — FRASE DE IMPACTO (síntese) ============ -->
   <section class="slide" id="s19">
     <div class="kicker" style="justify-content:center">A síntese</div>
-    <p class="quote">"A <strong>Inteligência Artificial</strong> não substitui o <strong>fiscal</strong>, ela <em>amplia seu alcance</em>, <em>fundamenta seu juízo</em> e <em>devolve o tempo</em> que o trabalho roubou."</p>
+    <p class="quote">"A <strong>Inteligência Artificial</strong> não substitui o <strong>fiscal</strong>, ela <em>amplia seu alcance</em>, <em>fundamenta seu juízo</em> e <em>devolve o tempo</em> que o trabalho burocrático tomou."</p>
   </section>
 
 <!-- ============ SLIDE 20 — PERGUNTAS / CONTATO ============ -->
@@ -725,7 +745,7 @@
     <div class="contact-split reveal">
       <div class="contact-info">
         <strong>Uákiti Pires</strong><br>
-        Engenheiro de Dados<br>
+        Engenheiro de Dados e Especialista em IA<br>
         <a href="https://n2ai.org" target="_blank" rel="noopener">N2AI</a><br>
         <a href="mailto:uakiti.nascimento@n2ai.org">uakiti.nascimento@n2ai.org</a><br>
         <a href="https://api.whatsapp.com/send/?phone=5511997997783&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">(11) 99799-7783</a><br>
