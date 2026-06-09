@@ -527,40 +527,88 @@
       </div>
 
       <div class="demo-split">
-        <!-- ESQUERDA (70%): iframe único -->
+        <!-- ESQUERDA: acordeão com os itens/descrições da demonstração -->
         <div class="demo-left">
-          <div class="frame-wrap">
-            <div class="frame-bar"><span class="dot" style="background:#e0564d"></span><span class="dot" style="background:#e0a93a"></span><span class="dot" style="background:#3a8f88"></span><span class="url">https://librechat.n2ai.org</span></div>
-            <iframe src="about:blank" title="Demo Chat com anexo" data-src="https://librechat.n2ai.org" loading="lazy" referrerpolicy="no-referrer"></iframe>
-          </div>
-        </div>
-
-        <!-- DIREITA (30%): acordeão com as descrições das 6 demos -->
-        <div class="demo-right">
           <div class="accordion">
             <div class="acc-item active">
               <button class="acc-head"><span class="acc-num">01</span> Chat com anexo</button>
-              <div class="acc-body"><p><b>Chat com anexo.</b> O primeiro degrau: o fiscal anexa um documento — uma declaração, um parecer, uma lei — e conversa com a IA sobre ele em linguagem natural.</p></div>
+              <div class="acc-body"><p><b>Chat com anexo.</b> O primeiro degrau: o fiscal anexa um documento — uma declaração, um parecer, uma lei — e conversa com a IA sobre ele em linguagem natural.<br><a href="https://drive.google.com/drive/folders/1F2jCWln__IEJ64niq7a7_uvQHp2KHBFM">[arquivos]</a> </p></div>
             </div>
             <div class="acc-item">
-              <button class="acc-head"><span class="acc-num">02</span> MCP e Skills</button>
-              <div class="acc-body"><p><b>MCP — dados de mercado.</b> A tomada universal da IA busca cotações ao vivo e gera uma recomendação fundamentada. A mesma mecânica pode ler a base de arrecadação, com acesso <b>controlado e rastreável</b>. Recomendação, não ordem.</p></div>
+              <button class="acc-head"><span class="acc-num">02</span> MCP</button>
+              <div class="acc-body"><p><b>MCP (Protocolo de Contexto de Modelo)</b> são servidores que permitem a conexão de serviços, plataformas ou appscom a IA, como consultar a hora atual, pesquisar a previsão do tempo ou cotações de ações ao vivo, que geram uma recomendação fundamentada. A mesma mecânica pode ler a base de arrecadação, com acesso <b>controlado e rastreável</b>. Recomendação, não ordem.</p></div>
             </div>
             <div class="acc-item">
-              <button class="acc-head"><span class="acc-num">03</span> Agente autônomo</button>
+              <button class="acc-head"><span class="acc-num">03</span> Skills</button>
+              <div class="acc-body"><p>Em vez de apenas gerar texto, com os <b>Skills</b> a IA ganha superpoderes para ler arquivos, rodar códigos, interpretar textos complexos e usar aplicativos como se fosse um usuário humano.</p></div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-head"><span class="acc-num">04</span> Agente autônomo</button>
               <div class="acc-body"><p><b>Agente autônomo.</b> Um agente lê dezenas de declarações em <b>PDF</b>, extrai os dados e preenche uma planilha sozinho. O que tirava um dia de digitação acontece enquanto você fala.</p></div>
             </div>
             <div class="acc-item">
-              <button class="acc-head"><span class="acc-num">04</span> Busca RAG + Ledger</button>
+              <button class="acc-head"><span class="acc-num">05</span> Busca RAG + Ledger</button>
               <div class="acc-body"><p><b>Busca inteligente: RAG + Ledger.</b> <b>RAG</b> consulta a lei (CTN, Código do Município); <b>Ledger</b> guarda o dado auditável. Em volta: <b>harness</b> (fluxo), <b>guardrails</b> (mecanismos de segurança e sigilo) e <b>agents</b> (agentes especializados). Resposta com a base legal citada.</p></div>
             </div>
             <div class="acc-item">
-              <button class="acc-head"><span class="acc-num">05</span> Dashboard</button>
+              <button class="acc-head"><span class="acc-num">06</span> Relatórios e Dashboards</button>
               <div class="acc-body"><p><b>Dashboard em tempo real · Superset.</b> Arrecadação, inadimplência e dívida ativa viram painéis vivos. O fiscal aplica um filtro — ISS por setor — e o painel responde <b>na hora</b>, sem chamado para a TI.</p></div>
             </div>
             <div class="acc-item">
-              <button class="acc-head"><span class="acc-num">06</span> Enxame de agentes</button>
+              <button class="acc-head"><span class="acc-num">07</span> Enxame de agentes</button>
               <div class="acc-body"><p><b>Enxame de agentes.</b> O topo da escada: vários agentes especializados atuam em paralelo — um extrai, outro concilia, outro busca inconsistências — e entregam ao fiscal o resultado consolidado para validação.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DIREITA: acordeão com os iframes das demonstrações -->
+        <div class="demo-right">
+          <div class="accordion iframe-acc">
+            <div class="acc-item active">
+              <button class="acc-head"><span class="acc-num">IA Integrada aos Apps</span> </button>
+              <div class="acc-frame">
+                <div class="frame-wrap">
+                  <iframe src="about:blank" title="Demo google drive" data-src="https://www.youtube.com/embed/qwy3KAwvzEU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-head"><span class="acc-num">Chat Customizado</span> </button>
+              <div class="acc-frame">
+                <div class="frame-wrap">
+                  <iframe src="about:blank" title="Demo librechat" data-src="https://www.youtube.com/embed/qwy3KAwvzEU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-head"><span class="acc-num">Consultas de Dados Dinâmicas</span> </button>
+              <div class="acc-frame">
+                <div class="frame-wrap">
+                  <iframe src="about:blank" title="Demo dremio" data-src="https://www.youtube.com/embed/qwy3KAwvzEU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-head"> <span class="acc-num">Análise de Dados Dinâmica</span> </button>
+              <div class="acc-frame">
+                <div class="frame-wrap">
+                  <iframe src="about:blank" title="Demo metabase" data-src="https://www.youtube.com/embed/qwy3KAwvzEU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-head"> <span class="acc-num">Links</span> </button>
+              <div class="acc-frame">
+                <div class="frame-wrap">
+                  <br><a class="acc-link" href="https://drive.google.com/drive/project/1i_Z-mcezEMxY0O2OnQ4vJL5gPYqhjg75" target="_blank" rel="noopener" onclick="event.stopPropagation()">Chat Google Drive</a>
+                  <br><a class="acc-link" href="https://librechat.n2ai.org" target="_blank" rel="noopener" onclick="event.stopPropagation()">Chat Customizado </a>
+                  <br><a class="acc-link" href="https://app.dremio.cloud/project/940a38d4-f1a3-4e8a-a021-abf36ec23f97" target="_blank" rel="noopener" onclick="event.stopPropagation()">Dremio</a>
+                  <br><a href="https://finest-craft.metabaseapp.com" target="_blank" rel="noopener" onclick="event.stopPropagation()">Metabase</a>
+                  <br><a href="https://finest-craft.metabaseapp.com/public/dashboard/29016466-63ab-4ad4-b4ce-68df8768c18f" target="_blank" rel="noopener" >[dashboard inicial]</a> 
+                  <br><a href="https://finest-craft.metabaseapp.com/public/dashboard/33ea74e6-4a30-4049-9208-a8b8f064e4cf" target="_blank" rel="noopener" >[dashboard gerencial]</a> 
+                  <br><a href="https://supabase.com/dashboard/sign-in?schema=public&returnTo=%2Fproject%2Fiwdyddskkhktwfkbpxac%2Fsql%2F3e3d1f8c-2be3-48cf-8f3c-9cf8abec9615" target="_blank" rel="noopener" >[base de dados]</a> 
+                </div>
+              </div>
             </div>
           </div>
         </div>

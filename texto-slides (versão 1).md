@@ -206,13 +206,14 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 - **Pré-título:** Demonstrações ao vivo
 - **Título (h2):** Do chat ao enxame de agentes
-- **Navegador (barra de URL):** https://www.google.com
+- **Navegador (barra de URL):** https://librechat.n2ai.org
 - **Acordeão 01 — título:** Chat com anexo · **descrição:** **Chat com anexo.** O primeiro degrau: o fiscal anexa um documento — uma declaração, um parecer, uma lei — e conversa com a IA sobre ele em linguagem natural.
-- **Acordeão 02 — título:** MCP e Skills · **descrição:** **MCP — dados de mercado.** A tomada universal da IA busca cotações ao vivo e gera uma recomendação fundamentada. A mesma mecânica pode ler a base de arrecadação, com acesso **controlado e rastreável**. Recomendação, não ordem.
-- **Acordeão 03 — título:** Agente autônomo · **descrição:** **Agente autônomo.** Um agente lê dezenas de declarações em **PDF**, extrai os dados e preenche uma planilha sozinho. O que tirava um dia de digitação acontece enquanto você fala.
-- **Acordeão 04 — título:** Busca RAG + Ledger · **descrição:** **Busca inteligente: RAG + Ledger.** **RAG** consulta a lei (CTN, Código do Município); **Ledger** guarda o dado auditável. Em volta: **harness** (fluxo), **guardrails** (mecanismos de segurança e sigilo) e **agents** (agentes especializados). Resposta com a base legal citada.
-- **Acordeão 05 — título:** Dashboard · **descrição:** **Dashboard em tempo real · Superset.** Arrecadação, inadimplência e dívida ativa viram painéis vivos. O fiscal aplica um filtro — ISS por setor — e o painel responde **na hora**, sem chamado para a TI.
-- **Acordeão 06 — título:** Enxame de agentes · **descrição:** **Enxame de agentes.** O topo da escada: vários agentes especializados atuam em paralelo — um extrai, outro concilia, outro busca inconsistências — e entregam ao fiscal o resultado consolidado para validação.
+- **Acordeão 02 — título:** MCP · **descrição:** **MCP (Protocolo de Contexto de Modelo)** são servidores que permitem a conexão de serviços, plataformas ou appscom a IA, como consultar a hora atual, pesquisar a previsão do tempo ou cotações de ações ao vivo, que geram uma recomendação fundamentada. A mesma mecânica pode ler a base de arrecadação, com acesso **controlado e rastreável**. Recomendação, não ordem.
+- **Acordeão 03 — título:** Skills · **descrição:** **Skills (extenção de habilidades)** Em vez de apenas gerar texto, com os **Skills** a IA ganha superpoderes para ler arquivos, rodar códigos, interpretar textos complexos e usar aplicativos como se fosse um usuário humano.
+- **Acordeão 04 — título:** Agente autônomo · **descrição:** **Agente autônomo.** Um agente lê dezenas de declarações em **PDF**, extrai os dados e preenche uma planilha sozinho. O que tirava um dia de digitação acontece enquanto você fala.
+- **Acordeão 05 — título:** Busca RAG + Ledger · **descrição:** **Busca inteligente: RAG + Ledger.** **RAG** consulta a lei (CTN, Código do Município); **Ledger** guarda o dado auditável. Em volta: **harness** (fluxo), **guardrails** (mecanismos de segurança e sigilo) e **agents** (agentes especializados). Resposta com a base legal citada.
+- **Acordeão 06 — título:** Relatórios e Dashboard · **descrição:** **Dashboard em tempo real · Superset.** Arrecadação, inadimplência e dívida ativa viram painéis vivos. O fiscal aplica um filtro — ISS por setor — e o painel responde **na hora**, sem chamado para a TI.
+- **Acordeão 07 — título:** Enxame de agentes · **descrição:** **Enxame de agentes.** O topo da escada: vários agentes especializados atuam em paralelo — um extrai, outro concilia, outro busca inconsistências — e entregam ao fiscal o resultado consolidado para validação.
 
 ---
 

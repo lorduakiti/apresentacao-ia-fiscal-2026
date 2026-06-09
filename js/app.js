@@ -73,7 +73,8 @@
       else setStage(slide,i);
       return;
     }
-    const f = slide.querySelector('iframe');
+    // carrega o iframe do item de acordeão ativo (slide 16) ou o iframe único do slide
+    const f = slide.querySelector('.acc-item.active iframe[data-src]') || slide.querySelector('iframe[data-src]');
     if(f && f.getAttribute('src')==='about:blank' && f.dataset.src){
       f.setAttribute('src', f.dataset.src);
     }
@@ -176,7 +177,12 @@
       const acc = btn.closest('.accordion');
       const wasActive = item.classList.contains('active');
       acc.querySelectorAll('.acc-item').forEach(i=>i.classList.remove('active'));
-      if(!wasActive) item.classList.add('active');
+      if(!wasActive){
+        item.classList.add('active');
+        // se o item abre um iframe (acordeão de iframes), carrega de forma preguiçosa
+        const f = item.querySelector('iframe[data-src]');
+        if(f && f.getAttribute('src')==='about:blank') f.setAttribute('src', f.dataset.src);
+      }
     });
   });
 

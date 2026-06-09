@@ -162,8 +162,8 @@
   .demo-stage.active{display:block;animation:stagein .4s ease}
   @keyframes stagein{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 
-  /* demo split: iframe único (70%) + acordeão (30%) */
-  .demo-split{display:grid;grid-template-columns:7fr 3fr;gap:1.4rem;min-height:0}
+  /* demo split (slide 16): acordeão de itens (esq.) + acordeão de iframes (dir.) */
+  .demo-split{display:grid;grid-template-columns:4fr 6fr;gap:1.4rem;min-height:0}
   .demo-left{min-height:0}
   .demo-left .frame-wrap{height:100%;margin:0}
   .demo-right{min-height:0}
@@ -180,6 +180,19 @@
   .acc-body p{margin:0;padding:.2rem .9rem .9rem;color:var(--paper-dim);font-weight:300;line-height:1.5;
     font-size:clamp(.82rem,1vw,.95rem)}
   .acc-body b{color:var(--gold-bright);font-weight:600}
+  /* acordeão de iframes (coluna direita do slide 16): o item ativo preenche a coluna */
+  .iframe-acc{overflow:hidden}
+  .iframe-acc .acc-item{display:flex;flex-direction:column;min-height:0}
+  .iframe-acc .acc-item.active{flex:1 1 auto;min-height:0}
+  .iframe-acc .acc-frame{display:none;min-height:0}
+  .iframe-acc .acc-item.active>.acc-frame{display:flex;flex-direction:column;flex:1;min-height:0}
+  .iframe-acc .acc-frame .frame-wrap{flex:1;min-height:0;height:auto;margin:0;border:0;border-top:1px solid var(--line);border-radius:0}
+  .iframe-acc .acc-frame .frame-wrap iframe{height:100%}
+  /* link (data-src original) no cabeçalho — abre em nova aba */
+  .iframe-acc .acc-head{flex-wrap:wrap}
+  .iframe-acc .acc-link{flex-basis:100%;margin-top:.25rem;color:var(--gold-bright);
+    text-decoration:underline;word-break:break-all;font-size:.66rem;font-weight:400;text-transform:none;letter-spacing:0}
+  .iframe-acc .acc-link:hover{color:#fff}
 
   /* ---------- PERSPECTIVE SLIDES w/ illustration ---------- */
   .persp{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:center;height:100%}
@@ -404,3 +417,7 @@
     .nums,.headlines,.effgrid{grid-template-columns:1fr}
     .concept .art{display:none}
   }
+
+div#dots > i[data-tip="16 · Do chat ao enxame de agentes"] {
+    background: orange;
+}
