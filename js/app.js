@@ -3,6 +3,12 @@
   const total = slides.length;
   let cur = 0;
 
+  // ----- parâmetros de query string (?slide=N e ?auto=N) -----
+  const params = new URLSearchParams(location.search);
+  const slideParam = parseInt(params.get('slide'), 10);
+  const autoParam  = parseInt(params.get('auto'), 10);
+  const autoSec    = (Number.isFinite(autoParam) && autoParam > 0) ? autoParam : 0;
+
   // build dots
   const dotsWrap = document.getElementById('dots');
   slides.forEach((s,i)=>{
@@ -41,6 +47,7 @@
     if(navNext) navNext.classList.toggle('hidden', cur===total-1);
     updateCue(slides[cur]);
     loadStageFrame(slides[cur]);
+    if(autoSec) startAuto();
   }
 
   // ----- DEMO STAGES (consolidated demo slide) -----
@@ -158,6 +165,28 @@
     const cloud = slides[cur].querySelector('.wordcloud');
     if(cloud){ startCloud(cloud); return; }
     revealNext();
+  }
+
+  // ----- ANIMAÇÃO AUTOMÁTICA (?auto=N): revela um elemento a cada N segundos -----
+  // Mantém a animação por clique/toque; o auto apenas dispara a mesma ação no tempo.
+  let autoTimer = null;
+  function autoHasMore(slide){
+    if(!slide) return false;
+    const cloud = slide.querySelector('.wordcloud');
+    if(cloud){
+      return cloud.dataset.anim!=='1' || cloud.querySelectorAll('.cloud-level:not(.show)').length>0;
+    }
+    return slide.querySelectorAll('.reveal:not(.shown)').length>0;
+  }
+  function stopAuto(){ if(autoTimer){ clearInterval(autoTimer); autoTimer=null; } }
+  function startAuto(){
+    stopAuto();
+    if(!autoSec) return;
+    autoTimer = setInterval(()=>{
+      const slide = slides[cur];
+      if(autoHasMore(slide)) tapAction();
+      else stopAuto();
+    }, autoSec*1000);
   }
 
   // tab clicks switch demo stages directly
@@ -343,6 +372,10 @@
     }
   }, {passive:true});
 
+  // slide inicial via ?slide=N (1-based); fora do intervalo é ajustado ao limite
+  if(Number.isFinite(slideParam)){
+    cur = Math.max(0, Math.min(total-1, slideParam-1));
+  }
   render();
   // gently reveal the opening subtitle after load
   setTimeout(()=>{ if(cur===0) revealNext(); }, 700);
