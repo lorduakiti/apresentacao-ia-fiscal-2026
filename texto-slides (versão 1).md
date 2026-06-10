@@ -206,14 +206,35 @@ Caixas de código (mesma consulta em cinco linguagens):
 
 - **Pré-título:** Demonstrações ao vivo
 - **Título (h2):** Do chat ao enxame de agentes
-- **Navegador (barra de URL):** https://librechat.n2ai.org
-- **Acordeão 01 — título:** Chat com anexo · **descrição:** **Chat com anexo.** O primeiro degrau: o fiscal anexa um documento — uma declaração, um parecer, uma lei — e conversa com a IA sobre ele em linguagem natural.
-- **Acordeão 02 — título:** MCP · **descrição:** **MCP (Protocolo de Contexto de Modelo)** são servidores que permitem a conexão de serviços, plataformas ou appscom a IA, como consultar a hora atual, pesquisar a previsão do tempo ou cotações de ações ao vivo, que geram uma recomendação fundamentada. A mesma mecânica pode ler a base de arrecadação, com acesso **controlado e rastreável**. Recomendação, não ordem.
-- **Acordeão 03 — título:** Skills · **descrição:** **Skills (extenção de habilidades)** Em vez de apenas gerar texto, com os **Skills** a IA ganha superpoderes para ler arquivos, rodar códigos, interpretar textos complexos e usar aplicativos como se fosse um usuário humano.
-- **Acordeão 04 — título:** Agente autônomo · **descrição:** **Agente autônomo.** Um agente lê dezenas de declarações em **PDF**, extrai os dados e preenche uma planilha sozinho. O que tirava um dia de digitação acontece enquanto você fala.
-- **Acordeão 05 — título:** Busca RAG + Ledger · **descrição:** **Busca inteligente: RAG + Ledger.** **RAG** consulta a lei (CTN, Código do Município); **Ledger** guarda o dado auditável. Em volta: **harness** (fluxo), **guardrails** (mecanismos de segurança e sigilo) e **agents** (agentes especializados). Resposta com a base legal citada.
-- **Acordeão 06 — título:** Relatórios e Dashboard · **descrição:** **Dashboard em tempo real · Superset.** Arrecadação, inadimplência e dívida ativa viram painéis vivos. O fiscal aplica um filtro — ISS por setor — e o painel responde **na hora**, sem chamado para a TI.
-- **Acordeão 07 — título:** Enxame de agentes · **descrição:** **Enxame de agentes.** O topo da escada: vários agentes especializados atuam em paralelo — um extrai, outro concilia, outro busca inconsistências — e entregam ao fiscal o resultado consolidado para validação.
+
+O slide tem duas colunas: à **esquerda**, um acordeão com as descrições
+conceituais (7 etapas); à **direita**, um acordeão com os iframes das
+demonstrações (vídeos) e um painel de **Links**.
+
+**Coluna esquerda — acordeão de descrições (7 etapas):**
+
+- **01 · Chat com anexo:** **Chat com anexo.** O primeiro degrau: o fiscal anexa um documento — uma declaração, um parecer, uma lei — e conversa com a IA sobre ele em linguagem natural. [arquivos] (https://drive.google.com/drive/folders/1F2jCWln__IEJ64niq7a7_uvQHp2KHBFM)
+- **02 · MCP:** **MCP (Protocolo de Contexto de Modelo)** são servidores que permitem a conexão de serviços, plataformas ou appscom a IA, como consultar a hora atual, pesquisar a previsão do tempo ou cotações de ações ao vivo, que geram uma recomendação fundamentada. A mesma mecânica pode ler a base de arrecadação, com acesso **controlado e rastreável**. Recomendação, não ordem.
+- **03 · Skills:** Em vez de apenas gerar texto, com os **Skills** a IA ganha superpoderes para ler arquivos, rodar códigos, interpretar textos complexos e usar aplicativos como se fosse um usuário humano.
+- **04 · Agente autônomo:** **Agente autônomo.** Um agente lê dezenas de declarações em **PDF**, extrai os dados e preenche uma planilha sozinho. O que tirava um dia de digitação acontece enquanto você fala.
+- **05 · Busca RAG + Ledger:** **Busca inteligente: RAG + Ledger.** **RAG** consulta a lei (CTN, Código do Município); **Ledger** guarda o dado auditável. Em volta: **harness** (fluxo), **guardrails** (mecanismos de segurança e sigilo) e **agents** (agentes especializados). Resposta com a base legal citada.
+- **06 · Relatórios e Dashboards:** **Dashboard em tempo real · Superset.** Arrecadação, inadimplência e dívida ativa viram painéis vivos. O fiscal aplica um filtro — ISS por setor — e o painel responde **na hora**, sem chamado para a TI.
+- **07 · Enxame de agentes:** **Enxame de agentes.** O topo da escada: vários agentes especializados atuam em paralelo — um extrai, outro concilia, outro busca inconsistências — e entregam ao fiscal o resultado consolidado para validação.
+
+**Coluna direita — acordeão de demonstrações (títulos das abas):**
+
+- IA Integrada aos Apps *(iframe de vídeo)*
+- Chat Customizado *(iframe de vídeo)*
+- Consultas de Dados Dinâmicas *(iframe de vídeo)*
+- Análise de Dados Dinâmica *(iframe de vídeo)*
+- **Links** *(painel com atalhos):*
+  - Chat Google Drive — https://drive.google.com/drive/project/1i_Z-mcezEMxY0O2OnQ4vJL5gPYqhjg75
+  - Chat Customizado — https://librechat.n2ai.org
+  - Dremio — https://app.dremio.cloud/project/940a38d4-f1a3-4e8a-a021-abf36ec23f97
+  - Metabase — https://finest-craft.metabaseapp.com
+  - [dashboard inicial] — https://finest-craft.metabaseapp.com/public/dashboard/29016466-63ab-4ad4-b4ce-68df8768c18f
+  - [dashboard gerencial] — https://finest-craft.metabaseapp.com/public/dashboard/33ea74e6-4a30-4049-9208-a8b8f064e4cf
+  - [base de dados] — https://supabase.com/dashboard/sign-in?schema=public&returnTo=%2Fproject%2Fiwdyddskkhktwfkbpxac%2Fsql%2F3e3d1f8c-2be3-48cf-8f3c-9cf8abec9615
 
 ---
 
@@ -253,6 +274,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 - **Alerta ×3:** Aplicar IA sobre dados sujos
 - **Alerta ×4:** Esquecer de treinar as pessoas
 - **Alerta ×5:** Não definir claramente como medir o sucesso com KPIs ou ROI
+- **Destaque (coluna direita):** Utilizar IA pra tudo é um delírio coletivo!
 
 ---
 
