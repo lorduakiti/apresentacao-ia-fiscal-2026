@@ -10,7 +10,7 @@ sem build) sobre **Aplicação de Inteligência Artificial nas Finanças
 Públicas**. Estilo TEDx, voltada a **Fiscais de Tributos Municipais**,
 auditores e equipes das Secretarias da Fazenda. Duração-alvo: ~15 min.
 
-São **20 slides**. A apresentação roda inteiramente no navegador.
+São **23 slides**. A apresentação roda inteiramente no navegador.
 
 ## Links
 
@@ -21,21 +21,26 @@ São **20 slides**. A apresentação roda inteiramente no navegador.
 
 ```
 projeto/
-├── index.html        # marcação dos 20 slides + HUD de navegação
+├── index.html         # marcação dos 23 slides + HUD de navegação
 ├── css/style.css      # todo o estilo e o tema visual
-├── js/app.js          # navegação, demo consolidada e gestos de toque
-├── imgs/              # diagramas SVG + teia animada de fundo
-│   ├── connection-web.svg   # teia animada (fundo do slide 1)
-│   ├── cockpit.svg          # slide 7  — papel do fiscal
-│   ├── w2h.svg              # slide 8  — 5W2H
-│   ├── venn-limits.svg      # slide 9  — limites máquina x humano
-│   ├── ladder.svg           # slide 10 — níveis de uso
-│   ├── ontology.svg         # slide 13 — camada ontológica
-│   ├── cost-curves.svg      # slide 17 — custos / token
-│   └── lightbulb-grid.svg   # slide 18 — revoluções
+├── js/app.js          # navegação, demo, carrosséis, modais e gestos de toque
+├── imgs/              # imagens raster (PNG/JPG/GIF) + alguns SVGs
+│   ├── connection-web.svg     # teia animada (fundo do slide 1) — SVG externo ainda em uso
+│   ├── qr-code-whatsapp.svg   # QR do WhatsApp (slide 23)
+│   ├── fluxo_dados_1..5.jpg   # legado: imagens DIKW que o slide 13 usava antes (não mais referenciadas)
+│   ├── evolucao-*.png         # carrossel (slide 3)
+│   ├── noticia_*.png          # carrossel de notícias (slide 8)
+│   └── …                      # demais fotos/diagramas/GIFs usados pelos slides
+├── *.md               # documentos de apoio (ver última seção)
 ├── README.md
 └── CLAUDE.md          # este arquivo
 ```
+
+> **A maioria dos diagramas é SVG _inline_ dentro de `index.html`** (slides 9,
+> 11, 13, 14, 15, 18 e o "GitHub corner" do slide 23), e não arquivos em
+> `imgs/`. Os SVGs `cockpit/w2h/venn-limits/ladder/ontology/cost-curves/lightbulb-grid`
+> em `imgs/` são **legados** e não são mais referenciados. Veja a armadilha
+> sobre SVG inline × externo abaixo antes de mexer.
 
 ## Como rodar (IMPORTANTE)
 
@@ -50,10 +55,12 @@ python3 -m http.server   # depois acesse http://localhost:8000
 ## Como navegar
 
 - **← / →** (teclado) ou **deslize** (mobile): troca de slide.
-- **Clique / toque** (parado): revela a próxima animação do slide.
-- No **slide 14 (demonstração consolidada)**, as setas percorrem as
-  **6 etapas** internas antes de avançar para o próximo slide; as abas no
-  topo saltam direto para uma etapa.
+- **Clique / toque** (parado): revela a próxima animação do slide (`.reveal`).
+- **Espaço:** revela a próxima animação sem trocar de slide.
+- **Home / End:** primeiro / último slide. Dots na HUD: salto direto.
+- No **slide 16 (demonstrações)** o conteúdo está em dois acordeões
+  (descrições à esquerda; iframes/links à direita). Clique nos títulos para
+  abrir cada item — as setas apenas trocam de slide.
 
 ## Arquitetura do front-end
 
@@ -61,57 +68,88 @@ python3 -m http.server   # depois acesse http://localhost:8000
   `<link>` no `<head>`. Todo o resto é local.
 - **Tema** definido por variáveis CSS em `:root` (`--ink`, `--gold`,
   `--rust`, `--teal`, etc.). Reuse essas variáveis; não introduza cores
-  soltas.
+  soltas (exceção justificada: cores semânticas de status — verde "ok",
+  vermelho `#e0564d` "não" — como na tabela do slide 11 e nos alertas do
+  slide 19).
 - **Slides** são `<section class="slide" id="sN">`. A navegação em
   `app.js` opera por POSIÇÃO no DOM, não pelo número do id — reordenar
   slides funciona desde que se mantenham as seções na ordem desejada.
 - **Animações por clique**: elementos com a classe `.reveal` aparecem um a
   cada clique/toque. Slides com revelações exibem a pista `.clickcue`.
-- **HUD**: barra de progresso, contador `NN / 20` e dots de navegação são
+- **HUD**: barra de progresso, contador `NN / 23` e dots de navegação são
   gerados/atualizados em `app.js`.
 
 ## Convenções e armadilhas (NÃO repita erros já resolvidos)
 
-- **SVGs externos não enxergam variáveis CSS nem web fonts.** Por isso:
-  - As cores dentro dos SVGs estão como valores **hex/rgba reais**, não
-    `var(--...)`. Se editar um SVG, use o valor real da paleta.
-  - Os textos dos diagramas foram **convertidos em contornos vetoriais**
-    (`<path>`), não são mais `<text>`. Isso preserva a fonte exata em
-    qualquer ambiente. Se precisar editar um rótulo, reconverta o texto a
-    path com a fonte correta (Fraunces / Archivo / JetBrains Mono) em vez
-    de inserir `<text>` cru.
+- **SVG inline × externo (regra crítica).** Um SVG carregado via
+  `<img src="...svg">` é tratado como imagem e **não** carrega recursos
+  externos (outras imagens, web fonts, CSS) nem enxerga as variáveis do
+  tema. Portanto:
+  - Diagramas que precisam de web fonts (`<text>`), de variáveis CSS ou que
+    **referenciam imagens raster** (`<image href="...">`) **têm de ser inline**
+    no `index.html`: um SVG externo via `<img>` não busca esses recursos.
+  - SVGs **externos** em `imgs/` só servem para arte autocontida (ex.:
+    `connection-web.svg`). Neles, use cores **hex/rgba reais** (não
+    `var(--...)`) e converta rótulos de texto em **contornos vetoriais**
+    (`<path>`) com a fonte correta (Fraunces / Archivo / JetBrains Mono),
+    em vez de `<text>` cru.
+  - SVGs **inline** podem usar `<text>` com as fontes do deck normalmente.
 - **Teia animada (`connection-web.svg`)**: usa animação nativa SMIL
   (`<animateTransform>`). O ciclo de cada nó **deve fechar** (primeiro
   keyframe == último), senão há um "salto" visível no loop. Já corrigido —
   preserve essa propriedade ao mexer.
-- **iframes das demos**: cada etapa da demo usa um `data-src` de exemplo,
-  carregado de forma preguiçosa só quando a etapa fica ativa. Troque os
-  `data-src` pelos sistemas reais antes de apresentar e confirme que o
-  serviço permite ser exibido em iframe (alguns bloqueiam via
+- **Fluxo DIKW animado (slide 13):** SVG inline **autocontido** (sem imagens),
+  desenhado com `<circle>`/`<line>`/`<polyline>`. Cinco etapas reveladas por
+  `<animate>` de `opacity` (SMIL): círculos vazios (Dados) → preenchidos
+  azul/rosa (Informação) → linhas pontilhadas (Conhecimento) → dois círculos
+  verde-neon via filtro `#neon` (Insight) → caminho neon entre eles (Sabedoria).
+  Ciclo de 12,5 s = **2,5 s por etapa**; os `keyTimes`/`values` (frações do
+  ciclo) voltam a 0 em t=0 e t=1 para o loop não dar salto. Para mudar a
+  duração por etapa, basta ajustar o `dur` de todos os `<animate>` — as
+  frações dos `keyTimes` continuam válidas. Preserve isso ao editar.
+- **Tabela Humano × IA (slide 11):** SVG inline; os ícones ficam **sempre
+  visíveis** e as palavras são "digitadas" letra a letra (cada `<tspan>` é uma
+  `.fl-letter`), com a marca ✔/✘ (`.fl-mark`) surgindo ~0,5 s após cada
+  palavra. A sequência é só CSS, **disparada quando o slide fica `.active`**
+  (`#s11.active .fl-letter`/`.fl-mark`); o atraso de cada elemento vem do
+  `animation-delay` inline. Por isso esse SVG **não** usa a classe `.reveal`.
+- **GitHub corner (slide 23):** octocat em SVG inline dentro de um `<a>` que
+  abre o repositório em nova aba; o braço (`.octo-arm`) acena no hover via
+  `@keyframes octocat-wave`. O `<a>` colapsa para 0×0 (o SVG é
+  `position:absolute`) — isso é esperado e o clique continua funcionando.
+- **iframes das demos**: cada item do acordeão de iframes usa um `data-src`
+  de exemplo, carregado de forma preguiçosa só quando o item fica ativo.
+  Troque os `data-src` pelos sistemas reais antes de apresentar e confirme
+  que o serviço permite ser exibido em iframe (alguns bloqueiam via
   `X-Frame-Options`).
 - **Mobile**: `touchstart`/`touchend` distinguem *tap* (revela) de *swipe*
   (navega). Há uma trava `suppressClick` para anular o "clique fantasma"
   pós-toque — não remova.
 
-## Conteúdo dos 20 slides (ordem atual)
+## Conteúdo dos 23 slides (ordem atual)
 
-1. Abertura  2. Agenda  3. Cenário  4. Evolução das interfaces
-5. Complexidade tributária  6. Prova social (manchetes + mapa de IA)
-7. Papel do fiscal  8. 5W2H  9. Limites máquina x humano
-10. Níveis de uso  11. Eficiência x eficácia  12. Governança/LGPD
-13. Camada ontológica  14. Demonstração (6 etapas: chat com anexo → MCP →
-agente autônomo → busca RAG+Ledger → dashboard Superset → enxame de
-agentes)  15. Proposta (IA + machine learning)  16. Roadmap/POC
-17. Custos da IA (token)  18. Revoluções  19. Perguntas/contato
-20. Frase de impacto final.
+1. Abertura  2. Cronograma (agenda)  3. A evolução do trabalho
+4. A mesma tarefa, cinco linguagens  5. Os dados crescem / a equipe não
+6. O oceano em que vocês nadam (números IBPT/Insper/Banco Mundial)
+7. A IA é o seu copiloto  8. Não é futuro, é notícia de jornal (prova social)
+9. O que a máquina responde? (5W2H)  10. A imprecisão da IA
+11. IA × Humanos (tabela comparativa animada em SVG)  12. Eficiência não é eficácia
+13. Governança não é freio (LGPD + fluxo DIKW animado)
+14. A camada ontológica (nuvem de palavras)  15. 4 Níveis de uso
+16. Do chat ao enxame de agentes (demonstrações, dois acordeões)
+17. IA Generativa + Machine Learning  18. O mercado mundial de IA
+19. Comece pequeno (POC)  20. Mais barato e melhor (custos / token)
+21. De novidade a infraestrutura (revoluções)  22. Frase de impacto (síntese)
+23. Perguntas? / Contato (com GitHub corner).
 
 ## Antes de apresentar (checklist)
 
-- [ ] Trocar `data-src` dos iframes pelos sistemas reais e testar embedding.
-- [ ] Preencher os campos `[ Seu nome ]`, `[ Instituição ]`, contato.
-- [ ] Conferir os números do slide 5 (IBPT, Banco Mundial) e preços de
-      token do slide 17, que mudam com frequência.
-- [ ] Confirmar as manchetes/links do slide 6 (título e data exatos).
+- [ ] Trocar `data-src` dos iframes (slide 16) pelos sistemas reais e testar
+      embedding.
+- [ ] Conferir os números do slide 6 (IBPT, Insper, Banco Mundial) e os
+      preços de token do slide 20, que mudam com frequência.
+- [ ] Confirmar as manchetes/links do slide 8 (título e data exatos).
+- [ ] Conferir dados de contato e o QR do slide 23.
 - [ ] Rodar em tela cheia (F11) servindo por HTTP.
 
 ## Publicação
@@ -120,9 +158,11 @@ Site estático. Funciona em GitHub Pages, Netlify (Drop ou via repositório),
 Vercel ou Cloudflare Pages sem ajustes. Para GitHub Pages: Settings → Pages
 → branch `main`, pasta raiz.
 
-## Documentos de apoio (fora deste repositório)
+## Documentos de apoio (na raiz do repositório)
 
-Existem três artefatos de texto que acompanham a apresentação:
-`estrutura (versão 1).md`, `apresentação versão 1.md` (conteúdo dos slides)
-e `palestra (versão 1).md` (roteiro falado do apresentador, estilo TEDx).
-Mantê-los em sincronia com a ordem dos slides se o deck mudar.
+Acompanham a apresentação quatro artefatos de texto:
+`estrutura (versão 1).md`, `apresentação (versão 1).md` (conteúdo dos
+slides), `palestra (versão 1).md` (roteiro falado, estilo TEDx) e
+`texto-slides (versão 1).md` (transcrição fiel de todos os textos do deck,
+na ordem dos slides). Mantenha-os em sincronia com a ordem dos slides se o
+deck mudar.

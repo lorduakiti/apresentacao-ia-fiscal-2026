@@ -17,14 +17,24 @@ python3 -m http.server
 
 ## Navegação
 - **← →** (ou deslize no celular): troca de slide
-- **Clique / toque**: revela animações
-- Na demonstração consolidada, as setas percorrem as 6 etapas
+- **Clique / toque** (ou **espaço**): revela as animações do slide
+- **Home / End**: primeiro / último slide
+- No slide 16 (demonstrações), o conteúdo está em dois acordeões — clique
+  nos títulos para abrir cada item
+
+São **23 slides** no total.
 
 ## Estrutura
-- `index.html` — marcação
+- `index.html` — marcação dos slides (a maioria dos diagramas é **SVG inline**)
 - `css/style.css` — estilo do tema
-- `js/app.js` — navegação, demo e gestos
-- `imgs/` — diagramas SVG (texto vetorizado) e teia animada de fundo
+- `js/app.js` — navegação, demo, carrosséis, modais e gestos
+- `imgs/` — imagens (PNG/JPG/GIF), a teia animada de fundo (`connection-web.svg`)
+  e o QR do WhatsApp
+
+> Diagramas que usam web fonts (`<text>`) ou referenciam imagens são SVG
+> **inline** no `index.html`: um SVG externo carregado via `<img>` não
+> consegue carregar esses recursos. O fluxo de dados animado do slide 13 é
+> 100% desenhado em SVG (círculos, linhas e brilho neon), sem imagens.
 
 ## Publicação no GitHub Pages
 Após o push, em **Settings → Pages**, selecione a branch `main` e a pasta

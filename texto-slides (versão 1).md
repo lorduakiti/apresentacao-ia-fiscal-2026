@@ -148,7 +148,15 @@ Caixas de código (mesma consulta em cinco linguagens):
 - **Pré-título:** Limites — de máquinas e de humanos
 - **Título (h2):** IA x Humanos
 - **Parágrafo:** Então a solução é não confiar cegamente em nenhum dos dois. Precisamos planejar uma forma de trabalho conjunto para que um corrija o outro: a máquina amplia o alcance e a velocidade; o humano valida o juízo e a veracidade. Os erros de um não são os erros do outro.
-- **Imagem (alt):** Humano e IA em colaboração
+- **Diagrama (SVG animado, digitação encadeada) — colunas:** HUMANO (ícone) × IA LLMs (ícone)
+- **Diagrama — comportamentos (HUMANO / IA LLMs):**
+  - erra — ✔ / ✔
+  - alucina — ✔ / ✔
+  - delira — ✔ / ✔
+  - esquece — ✔ / ✔
+  - mente — ✔ / ✔
+  - engana — ✔ / ✘
+  - sente — ✔ / ✘ *(só o humano engana e sente)*
 
 ---
 
@@ -170,7 +178,7 @@ Caixas de código (mesma consulta em cinco linguagens):
 - **Título (h2):** Governança não é freio · É a condição
 - **Parágrafo 1:** Sem dado de qualidade, não há IA confiável. No setor público, ela opera sob a **LGPD** e o **sigilo fiscal**, com controle de acesso e supervisão humana.
 - **Parágrafo 2:** Se a IA aponta um contribuinte, ela precisa explicar por que apontou aquele contribuinte com as devidas justificativas dos motivos da indicação — como um auto de infração precisa de *motivação*. IA sem fundamentação não se sustenta num processo. Assim como um lançamento sem motivação não se sustenta.
-- **Carrossel (imagens, alt):** Fluxo de dados — etapas 1 a 5
+- **Diagrama (SVG animado — fluxo DIKW, 2,5 s por etapa):** Dados → Informação → Conhecimento → Insight → Sabedoria
 
 ---
 
@@ -323,3 +331,4 @@ demonstrações (vídeos) e um painel de **Links**.
 - **Contato — WhatsApp:** (11) 99799-7783
 - **Contato — LinkedIn:** linkedin.com/in/uakiti
 - **QR code (alt):** QR code do WhatsApp de Uákiti Pires
+- **GitHub corner (SVG animado, canto superior direito → link):** https://github.com/lorduakiti/apresentacao-ia-fiscal-2026
